@@ -14083,15 +14083,31 @@
                     E && await E;
                     try {
                         n.callEntryAntiCrawlerInSecuritySdkForHttpGet.onInit();
-                        const e = await (async()=>{
-                            const e = i ? await i.entry(oe.AntiCrawler) : [];
+                        
+                        const getAfAcEncData = async () =>{
+                            let e = [];
+
+                            if(i){
+                                e = await i.entry(oe.AntiCrawler);
+                            }
+
+                            console.log('getAnti', i, oe.AntiCrawler, i.entry);
+
                             return e && e.length ? e[e.length - 1] : ""
                         }
-                        )();
-                        return n.callEntryAntiCrawlerInSecuritySdkForHttpGet.onComplete(),
-                        {
-                            [K]: e
+
+                        const afAcEncData = await getAfAcEncData();
+                        
+                        
+                        n.callEntryAntiCrawlerInSecuritySdkForHttpGet.onComplete()
+
+                        // af-ac-enc-data
+                        let hasil = {
+                            [K]: afAcEncData
                         }
+
+                        return hasil
+
                     } catch (t) {
                         n.callEntryAntiCrawlerInSecuritySdkForHttpGet.onFail(),
                         e()
@@ -14280,10 +14296,11 @@
                             apiProtection: null,
                             antiCrawler: null
                         };
+
                     n.getSecurityDataForHttpGet.onInit();
                     
                     // ----------------custom-----------------
-                        console.log('getSecurityDataForGetMethod', e);
+                        console.log('getSecurityDataForGetMethod', e, n.getSecurityDataForHttpGet.onInit);
 
                     // ---------------------- end custom-------------------
                     
@@ -14303,22 +14320,28 @@
                     }
 
                     // ------------ end custom -----------------
-                    
-                    
-                    const [a,s] = await Promise.all([t ? i.createApiSignatureHeadersForGetAPI({
-                        query: null == t ? void 0 : t.query,
-                        signatureLevel: null == t ? void 0 : t.signatureLevel,
-                        onFail: n.getSecurityDataForHttpGet.onFail
-                    }) : null, r ? i.getAntiCrawlerDataForRequestHeader({
-                        onFail: n.getSecurityDataForHttpGet.onFail
-                    }) : null]);
+                    let apiProtectSz = null;
+                    let antiCrawl = null;
 
+                    if (t){
+                        apiProtectSz = await i.createApiSignatureHeadersForGetAPI({
+                            query: null == t ? void 0 : t.query,
+                            signatureLevel: null == t ? void 0 : t.signatureLevel,
+                            onFail: n.getSecurityDataForHttpGet.onFail
+                        })
+                    }
+
+                    if (r){
+                        antiCrawl = await i.getAntiCrawlerDataForRequestHeader({
+                            onFail: n.getSecurityDataForHttpGet.onFail
+                        })
+                    }
 
 
                     return n.getSecurityDataForHttpGet.onComplete(),
                     {
-                        apiProtection: a,
-                        antiCrawler: s
+                        apiProtection: apiProtectSz,
+                        antiCrawler: antiCrawl
                     }
                 },
                 getSecurityDataForPostMethod: async function(e) {

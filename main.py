@@ -10,6 +10,33 @@ from collections import OrderedDict
 from base64 import b64encode
 
 
+class BlockerUrl:
+    
+    list_url = [
+        '__t__',
+        'shpsec/web/report',
+    ] 
+    
+    def load(self, loader):
+        loader.add_option(
+            name="validate_inbound_headers",
+            typespec=bool,
+            default=False,
+            help="Add a count header to responses",
+        )
+            
+            
+    def request(self, flow: HTTPFlow):
+        headers = dict(flow.request.headers)
+        
+        for url_key in self.list_url:
+            if flow.request.url.find(url_key) != -1:
+                flow.kill()
+                
+                print(f'kill tracker {flow.request.url}')
+                break
+
+
 class RequestLogger:
     def load(self, loader):
         loader.add_option(
@@ -138,6 +165,7 @@ async def start_proxy(host, port):
         with_dumper=False,
     )
     # master.addons.add(RequestLogger())
+    master.addons.add(BlockerUrl())
     master.addons.add(CsvWriter())
     master.addons.add(CookiesInspect())
     master.addons.add(ResourceTampering())
