@@ -143,6 +143,10 @@ class ResourceTampering:
             with open('./assets/bundle.15a55f751c8d28c2.js', 'rb') as out:
                 flow.response.content = out.read()
                 
+        if flow.request.url.find('/assets/bundle.ac2bec79b0d7798d.js') != -1:
+            with open('./assets/bundle.ac2bec79b0d7798d.js', 'rb') as out:
+                flow.response.content = out.read()
+                
         if flow.request.url.find('7a8a0c288aad2b15e94d84ab4405153f2685734f.js') != -1:
             
             print('tampering 7a8a0c288aad2b15e94d84ab4405153f2685734f.js')
@@ -172,6 +176,23 @@ async def start_proxy(host, port):
     
     await master.run()
     return master
+
+
+async def start_fix_proxy(host, port):
+    opts = options.Options(listen_host=host, listen_port=port)
+
+    master = dump.DumpMaster(
+        opts,
+        with_termlog=False,
+        with_dumper=False,
+    )
+    # master.addons.add(RequestLogger())
+    master.addons.add(BlockerUrl())
+    # master.addons.add(CsvWriter())
+    # master.addons.add(CookiesInspect())
+    master.addons.add(ResourceTampering())
+    
+    await master.run()
 
 if __name__ == '__main__':
     asyncio.run(start_proxy('localhost', 8888))

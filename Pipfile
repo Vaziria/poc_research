@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 mitmproxy = "*"
+pydantic = "*"
+httpx = {extras = ["http2"], version = "*"}
+install = "*"
+selenium = "*"
+webdriver-manager = "*"
 
 [dev-packages]
 

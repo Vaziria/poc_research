@@ -1,263 +1,265 @@
 function o0qOO0(arg1) {
-  var oq0q0o = o0OQOQ
+    var oq0q0o = o0OQOQ
+    
+      , hasil = []
+      , backBuint8 = []
+      , belakangBack = []
+      , plaindatahead = []
+      , plaindata = [];
+    plaindatahead[o0qOqq['FILED_VERSION_SLOT']] = o0qOoq;
+    var o0O00q = o0oqqq['getTaskResult'](o0oqqq['getEM00KeyName'], !0)
+      , o0O00O = o0oqqq['getTaskResult'](o0oqqq['getVideoCardInfoKeyName'])
+      , o0O00Q = o0oqqq['getTaskResult'](o0oqqq['getEM01KeyName'], !0);
+    plaindata[o0qOqO['FILED_VIDEO_VENDER_SLOT']] = o0O00O[0],
+    plaindata[o0qOqO['FILED_VIDEO_RENDER_SLOT']] = o0O00O[1];
+    var o0O0o0 = o0oqqq['getTaskResult'](o0oqqq['getEM02KeyName'], !0)
+      , o0O0oo = o0oqqq['getTaskResult'](o0oqqq['getEM03KeyName'], !0)
+      , o0O0oq = o00qOO['getData'](o00qOQ);
+    plaindata[o0qOqO['FILED_BATTERY_STATUS_SLOT']] = o0O0oq[0],
+    plaindata[o0qOqO['FILED_BATTERY_LEVEL_SLOT']] = o0O0oq[1],
+    plaindata[o0qOqO['FILED_BATTERY_CHARGE_STATUS_SLOT']] = o0O0oq[2];
+    var o0O0oO = o0oqqq['getTaskResult'](o0oqqq['getEM04KeyName'], !0)
+      , o0O0oQ = o0oqqq['getTaskResult'](o0oqqq['getEM05KeyName'], !0)
+      , o0O0q0 = o0oqqq['getTaskResult'](o0oqqq['getHK00KeyName'], !0)
+      , o0O0qo = o0oqqq['getTaskResult'](o0oqqq['getScreenResolutionInfoKeyName'], !0)
+      , o0O0qq = o0oqqq['getTaskResult'](o0oqqq['getHK01KeyName'], !0)
+      , o0O0qO = o0oqqq['getTaskResult'](o0oqqq['getEM06KeyName'], !0);
+    plaindata[o0qOqO['FILED_SCREEN_WIDTH_SLOT']] = o0O0qo[0],
+    plaindata[o0qOqO['FILED_SCREEN_HEIGHT_SLOT']] = o0O0qo[1],
+    plaindata[o0qOqO['FILED_SCREEN_COLOR_DEPTH_SLOT']] = o0O0qo[2];
+    var o0O0qQ = o0oqqq['getTaskResult'](o0oqqq['getEM07KeyName'], !0)
+      , o0O0O0 = o0oqqq['getTaskResult'](o0oqqq['getHK02KeyName'], !0)
+      , o0O0Oo = o0oqqq['getTaskResult'](o0oqqq['getHK03KeyName'], !0);
+    plaindata[o0qOqO['FILED_MAX_TOUCH_POINTS_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['getMaxTouchPointsKeyName']);
+    var o0O0Oq = o0oqqq['getTaskResult'](o0oqqq['getHK04KeyName'], !0)
+      , o0O0OO = o0oqqq['getTaskResult'](o0oqqq['getEM08KeyName'], !0);
+    plaindata[o0qOqO['FILED_CPU_CORE_NUMBER_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['getCpuCoreNumKeyName']);
+    var o0O0OQ = o0oqqq['getTaskResult'](o0oqqq['getHK05KeyName'], !0)
+      , o0O0Q0 = o0oqqq['getTaskResult'](o0oqqq['getHK06KeyName'], !0)
+      , o0O0Qo = o0oqqq['getTaskResult'](o0oqqq['getEM09KeyName'], !0)
+      , o0O0Qq = o0oqqq['getTaskResult'](o0oqqq['getHK07KeyName'], !0)
+      , o0O0QO = o0oqqq['getTaskResult'](o0oqqq['getHK08KeyName'], !0)
+      , o0O0QQ = o0oqqq['getTaskResult'](o0oqqq['getEM10KeyName'], !0)
+      , o0Oo00 = o0oqqq['getTaskResult'](o0oqqq['getACPluginsKeyName'], !0)
+      , o0Oo0o = o0oqqq['getTaskResult'](o0oqqq['getEM11KeyName'], !0);
+    plaindata[o0qOqO['FILED_PLUGINS_SLOT']] = o0Oo00;
+    var o0Oo0q = o0oqqq['getTaskResult'](o0oqqq['getOsInfoKeyName'])
+      , o0Oo0O = o0oqqq['getTaskResult'](o0oqqq['getHK09KeyName'], !0)
+      , o0Oo0Q = o0oqqq['getTaskResult'](o0oqqq['getHK10KeyName'], !0)
+      , o0Ooo0 = o0oqqq['getTaskResult'](o0oqqq['getHK11KeyName'], !0)
+      , o0Oooo = o0oqqq['getTaskResult'](o0oqqq['getEM12KeyName'], !0);
+    plaindata[o0qOqO['FILED_PLATFORM_SLOT']] = o0Oo0q[0],
+    plaindata[o0qOqO['FILED_LANGUAGE_SLOT']] = o0Oo0q[1],
+    plaindata[o0qOqO['FILED_LANGUAGES_SLOT']] = o0Oo0q[2],
+    plaindata[o0qOqO['FILED_CONNECTION_TYPE_SLOT']] = o0Oo0q[3];
+    var o0Oooq = o0oqqq['getTaskResult'](o0oqqq['getHK12KeyName'], !0)
+      , o0OooO = o0oqqq['getTaskResult'](o0oqqq['getEM13KeyName'], !0)
+      , o0OooQ = o0oqqq['getTaskResult'](o0oqqq['getHK13KeyName'], !0)
+      , o0Ooq0 = o0oqqq['getTaskResult'](o0oqqq['getHK14KeyName'], !0)
+      , o0Ooqo = o0oqqq['getTaskResult'](o0oqqq['getProxyFlagKeyName'], !0)
+      , o0Ooqq = o0oqqq['getTaskResult'](o0oqqq['getWindowPositionInfoKeyName'], !0);
+    plaindata[o0qOqO['FILED_INNER_WIDTH_WIN_POS_SLOT']] = o0Ooqq[0],
+    plaindata[o0qOqO['FILED_INNER_HEIGHT_WIN_POS_SLOT']] = o0Ooqq[1];
+    var o0OoqO = o0oqqq['getTaskResult'](o0oqqq['getEM14KeyName'], !0)
+      , o0OoqQ = o0O0q0 | o0O0qq << 1 | o0O0O0 << 2 | o0O0Oo << 3 | o0O0Oq << 4 | o0O0OQ << 5 | o0O0Q0 << 6 | o0O0Qq << 7 | o0O0QO << 8 | o0Oo0O << 9 | o0Oo0Q << 10 | o0Ooo0 << 11 | o0Oooq << 12 | o0OooQ << 13 | o0Ooq0 << 14;
+    plaindata[o0qOqO['FILED_HOOK_ATTRIBUTE_SLOT']] = o0OoqQ,
+    plaindata[o0qOqO['FILED_PROXY_FLAG_SLOT']] = o0Ooqo,
+    plaindata[o0qOqO['FILED_SCREEN_LEFT_WIN_POS_SLOT']] = o0Ooqq[2],
+    plaindata[o0qOqO['FILED_SCREEN_TOP_WIN_POS_SLOT']] = o0Ooqq[3];
+    var o0OoO0 = o0oqqq['getTaskResult'](o0oqqq['getEM15KeyName'], !0)
+      , o0OoOo = -1;
+    arg1['performance'] && arg1['performance']['now'] && (o0OoOo = 1000 * performance['now']() >> 0),
+    plaindata[o0qOqO['FILED_PERFORMANCE_SLOT']] = o0OoOo;
+    var o0OoOq = o0O00q | o0O00Q << 1 | o0O0o0 << 2 | o0O0oo << 3 | o0O0oO << 4 | o0O0oQ << 5 | (o0O0qO | o0O0qQ << 1 | o0O0OO << 2 | o0O0Qo << 3 | o0O0QQ << 4 | o0Oo0o << 5) << 6 | (o0Oooo | o0OooO << 1 | o0OoqO << 2 | o0OoO0 << 3 | o0oqqq['getTaskResult'](o0oqqq['getEM16KeyName'], !0) << 4 | o0oqqq['getTaskResult'](o0oqqq['getEM17KeyName'], !0) << 5) << 12 | (o0oqqq['getTaskResult'](o0oqqq['getEM18KeyName'], !0) | o0oqqq['getTaskResult'](o0oqqq['getEM19KeyName'], !0) << 1 | o0oqqq['getTaskResult'](o0oqqq['getEM20KeyName'], !0) << 2 | o0oqqq['getTaskResult'](o0oqqq['getEM21KeyName'], !0) << 3 | o0oqqq['getTaskResult'](o0oqqq['getEM22KeyName'], !0) << 4 | o0oqqq['getTaskResult'](o0oqqq['getEM23KeyName'], !0) << 5) << 18;
+    plaindata[o0qOqO['FILED_EMULATOR_ATTR_SLOT']] = o0OoOq,
+    plaindata[o0qOqO['FILED_AUDIO_LIST_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['getPlayableAudioInfoKeyName'], !0),
+    plaindata[o0qOqO['FILED_VIDEO_LIST_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['getPlayableVideoInfoKeyName'], !0);
+    var o0OoOO = o0oqqq['getTaskResult'](o0oqqq['getBrowserKernelInfoKeyName']);
+    plaindata[o0qOqO['FILED_BROWSER_KERNEL_TYPE_0_SLOT']] = o0OoOO[0],
+    plaindata[o0qOqO['FILED_BROWSER_KERNEL_TYPE_1_SLOT']] = o0OoOO[1],
+    plaindata[o0qOqO['FILED_CHROME_VER_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['getChromeVersionInfoKeyName']),
+    plaindata[o0qOqO['FILED_FIREFOX_VER_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['getFirefoxVersionInfoKeyName']),
+    plaindata[o0qOqO['FILED_CODE_HASH_SLOT']] = (function() {
+        var oq0q0q = oq0q0o
+          , o0OO0O = ('' + o0qOOo)['replace'](')\x20', ')');
+        return function(o0OO0Q, o0OOo0, o0OOoo) {
+            var oq0q0O = oq0q0q;
+            for (var hasil = 0, o0OOoO = o0OO0Q['length'], counter = o0OOoo || 1, c2 = o0OOo0; c2 < o0OOoO; )
+                hasil <<= 3,
+                hasil += o0OO0Q['charCodeAt'](c2),
+                c2 += counter;
+            return hasil;
+        }(o0OO0O = (o0OO0O = o0OO0O['replace'](/;}$/, '}'))['replace'](/"/g, ''), 0, 64);
+    }()),
+    plaindata[o0qOqO['FILED_TIMEZONE_OFFSET_SLOT']] = new Date()['getTimezoneOffset']();
+    var o0OoOQ = o0oqqq['getTaskResultDirectly'](o0oqqq['detectDebugKeyName'], !0)
+      , o0OoQ0 = !1;
+    'undefined' !== o0OoOQ && (o0OoQ0 = o0OoOQ),
+    plaindata[o0qOqO['FILED_DEBUGER_MODE_SLOT']] = o0OoQ0 ? 1 : 0,
+    plaindata[o0qOqO['FILED_BEAUTIFY_SOURCE_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['checkReverseKeyName']);
+    var o0OoQo = !1;
+    'undefined' !== (o0OoOQ = o0oqqq['getTaskResultDirectly'](o0oqqq['detectPrivateModeKeyName'], !0)) && (o0OoQo = o0OoOQ['isPrivateMode']),
+    plaindata[o0qOqO['FILED_INCOGNITO_MODE_SLOT']] = o0OoQo ? 1 : 0,
+    plaindata[o0qOqO['FILED_RUNNING_VIRTUAL_MACHINE_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['checkVirtualMachineKeyName']),
+    plaindata[o0qOqO['FILED_MOBILE_DEVICES_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['isMobileDeviceKeyName']),
+    plaindata[o0qOqO['FILED_FAKE_UA_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['checkuaKeyName']);
+    var o0OoQq = o0qq0O['getClientCheckData']() || '';
+    (o0OoQq['length'] > 256 || o0OoQq['length'] < 100) && (o0OoQq = ''),
+    plaindata[o0qOqO['FILED_DFP_SLOT']] = o0OoQq;
+    var o0OoQO = o0oqqq['getTaskResult'](o0oqqq['netsparkerDetectKeyName'], !0)['hit'] ? 1 : 0
+      , o0OoQQ = o0oqqq['getTaskResult'](o0oqqq['appScanDetectKeyName'], !0)['hit'] ? 2 : 0
+      , o0Oq00 = o0oqqq['getTaskResult'](o0oqqq['zapDetectKeyName'], !0)['hit'] ? 4 : 0
+      , o0Oq0o = o0oqqq['getTaskResult'](o0oqqq['radDetectKeyName'], !0)['hit'] ? 8 : 0
+      , o0Oq0q = o0oqqq['getTaskResult'](o0oqqq['arachniDetectKeyName'], !0)['hit'] ? 16 : 0
+      , o0Oq0O = o0oqqq['getTaskResult'](o0oqqq['awvsDetecKeyName'], !0)['hit'] ? 32 : 0
+      , o0Oq0Q = o0oqqq['getTaskResult'](o0oqqq['domdigDetectKeyName'], !0)['hit'] ? 64 : 0
+      , o0Oqo0 = o0oqqq['getTaskResult'](o0oqqq['burpsuitDetectKeyName'], !0)['hit'] ? 128 : 0
+      , o0Oqoo = o0oqqq['getTaskResult'](o0oqqq['htcrawlDetectKeyName'], !0)['hit'] ? 256 : 0;
+    plaindata[o0qOqO['FILED_WEB_SCANNER_SLOT']] = o0OoQO | o0OoQQ | o0Oq00 | o0Oq0o | o0Oq0q | o0Oq0O | o0Oq0Q | o0Oqo0 | o0Oqoo;
+    for (var o0Oqoq = function(o0OO0O, o0OO0Q) {
+        var oq0qo0 = oq0q0o, o0OOo0;
+        switch (o0OO0O) {
+        case o0qO0Q:
+            o0OOo0 = function(o0OOoo) {
+                var oq0q0Q = O0QQQQo
+                  , hasil = [];
+                return hasil['push'](255 & o0OOoo),
+                hasil;
+            }(o0OO0Q);
+            break;
+        case o0qOo0:
+            o0OOo0 = o0qqQQ(o0OO0Q);
+            break;
+        case 7:
+            o0OOo0 = o000q0['OOqQqQ'](o0qO00, o0OO0Q);
+            break;
+        case o0qOoo:
+            o0OOo0 = function(o0OOoo) {
+                var oq0qoo = oq0qo0
+                  , hasil = 4294967296
+                  , o0OOoO = o0OOoo / hasil | 0
+                  , counter = o0OOoo - o0OOoO * hasil;
+                return o0qO00(o0OOoO)['concat'](o0qO00(counter));
+            }(o0OO0Q);
+        }
+        return o0OOo0;
+    }, o0OqoO = 0; o0OqoO < o0qOqO['FILED_BODY_TOTAL_SLOTS_NUM_SLOT']; o0OqoO++) {
+        var o0OqoQ = o0qOoO[o0OqoO]
+          , o0Oqq0 = plaindata[o0OqoQ]
+          , o0Oqqo = o0qOqO['properties'][o0OqoQ]['type']
+          , o0Oqqq = o0qOqO['properties'][o0OqoQ]['length'];
+        switch (o0Oqqo) {
+        case o0qOoQ:
+            belakangBack = belakangBack['concat'](o0Oqoq(o0Oqqq, o0Oqq0));
+            break;
+        case o0qOq0:
+            var o0OqqO = o0Oqq0['length'];
+            belakangBack = (belakangBack = belakangBack['concat'](o0Oqoq(o0Oqqq, o0OqqO)))['concat'](o0qO0o(o0Oqq0));
+            break;
+        case o0qOqo:
+            var o0OqqQ = o0Oqq0['length'];
+            belakangBack = belakangBack['concat'](dickKeyData['oQQoQO'](o0qqQQ, o0OqqQ));
+            for (var o0OqO0 = 0; o0OqO0 < o0OqqQ; o0OqO0++)
+                belakangBack = (belakangBack = belakangBack['concat'](o0qqQQ(o0Oqq0[o0OqO0]['length'])))['concat'](o0qO0o(o0Oqq0[o0OqO0]));
+            break;
+        case 2169:
+            var o0OqOo = o0Oqq0[0];
+            belakangBack = belakangBack['concat'](o0qqQQ(o0OqOo));
+            for (var o0OqOq = 0; o0OqOq < (o0OqOo > 16 ? 16 : o0OqOo); o0OqOq++)
+                belakangBack = (belakangBack = belakangBack['concat'](o0qqQQ(o0Oqq0[o0OqOq + 1]['length'])))['concat'](dickKeyData['OQOqoo'](o0qO0o, o0Oqq0[o0OqOq + 1]));
+        }
+    }
+    var o0OqOO = belakangBack['length'] % 16;
+    if (0 !== o0OqOO) {
+        for (var o0OqOQ = 16 - o0OqOO, o0OqQ0 = 0; o0OqQ0 < o0OqOQ; o0OqQ0++)
+            belakangBack['push'](o0OqOQ);
+    }
+    plaindatahead[o0qOqq['FILED_START_TIME_STAMP_SLOT']] = o0qO0O,
+    plaindatahead[o0qOqq['FILED_BODY_CHECKSUM_SLOT']] = function(o0OO0O) {
+        var oq0qoq = oq0q0o;
+        for (var o0OO0Q = 0, o0OOo0 = 0; o0OOo0 < o0OO0O['length']; )
+            o0OO0Q = o0OO0Q + (15 & o0OO0O[o0OOo0]) & 4294967295,
+            o0OOo0++;
+        return o0OO0Q;
+    }(belakangBack),
+    plaindatahead[o0qOqq['FILED_BODY_LENGTH_SLOT']] = belakangBack['length'],
+    plaindatahead[o0qOqq['FILED_ALGORITHM_INDICATOR_SLOT']] = 2,
+    plaindatahead[o0qOqq['FILED_VERSION_WATERMARK_SLOT']] = 3957671804,
+    plaindatahead[o0qOqq['FILED_START_TIME_STAMP_SLOT']],
+    plaindatahead[o0qOqq['FILED_BODY_CHECKSUM_SLOT']],
+    plaindatahead[o0qOqq['FILED_BODY_LENGTH_SLOT']];
   
-    , hasil = []
-    , o0qQQO = []
-    , o0qQQQ = []
-    , plaindatahead = []
-    , plaindata = [];
-  plaindatahead[o0qOqq['FILED_VERSION_SLOT']] = o0qOoq;
-  var o0O00q = o0oqqq['getTaskResult'](o0oqqq['getEM00KeyName'], !0)
-    , o0O00O = o0oqqq['getTaskResult'](o0oqqq['getVideoCardInfoKeyName'])
-    , o0O00Q = o0oqqq['getTaskResult'](o0oqqq['getEM01KeyName'], !0);
-  plaindata[o0qOqO['FILED_VIDEO_VENDER_SLOT']] = o0O00O[0],
-  plaindata[o0qOqO['FILED_VIDEO_RENDER_SLOT']] = o0O00O[1];
-  var o0O0o0 = o0oqqq['getTaskResult'](o0oqqq['getEM02KeyName'], !0)
-    , o0O0oo = o0oqqq['getTaskResult'](o0oqqq['getEM03KeyName'], !0)
-    , o0O0oq = o00qOO['getData'](o00qOQ);
-  plaindata[o0qOqO['FILED_BATTERY_STATUS_SLOT']] = o0O0oq[0],
-  plaindata[o0qOqO['FILED_BATTERY_LEVEL_SLOT']] = o0O0oq[1],
-  plaindata[o0qOqO['FILED_BATTERY_CHARGE_STATUS_SLOT']] = o0O0oq[2];
-  var o0O0oO = o0oqqq['getTaskResult'](o0oqqq['getEM04KeyName'], !0)
-    , o0O0oQ = o0oqqq['getTaskResult'](o0oqqq['getEM05KeyName'], !0)
-    , o0O0q0 = o0oqqq['getTaskResult'](o0oqqq['getHK00KeyName'], !0)
-    , o0O0qo = o0oqqq['getTaskResult'](o0oqqq['getScreenResolutionInfoKeyName'], !0)
-    , o0O0qq = o0oqqq['getTaskResult'](o0oqqq['getHK01KeyName'], !0)
-    , o0O0qO = o0oqqq['getTaskResult'](o0oqqq['getEM06KeyName'], !0);
-  plaindata[o0qOqO['FILED_SCREEN_WIDTH_SLOT']] = o0O0qo[0],
-  plaindata[o0qOqO['FILED_SCREEN_HEIGHT_SLOT']] = o0O0qo[1],
-  plaindata[o0qOqO['FILED_SCREEN_COLOR_DEPTH_SLOT']] = o0O0qo[2];
-  var o0O0qQ = o0oqqq['getTaskResult'](o0oqqq['getEM07KeyName'], !0)
-    , o0O0O0 = o0oqqq['getTaskResult'](o0oqqq['getHK02KeyName'], !0)
-    , o0O0Oo = o0oqqq['getTaskResult'](o0oqqq['getHK03KeyName'], !0);
-  plaindata[o0qOqO['FILED_MAX_TOUCH_POINTS_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['getMaxTouchPointsKeyName']);
-  var o0O0Oq = o0oqqq['getTaskResult'](o0oqqq['getHK04KeyName'], !0)
-    , o0O0OO = o0oqqq['getTaskResult'](o0oqqq['getEM08KeyName'], !0);
-  plaindata[o0qOqO['FILED_CPU_CORE_NUMBER_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['getCpuCoreNumKeyName']);
-  var o0O0OQ = o0oqqq['getTaskResult'](o0oqqq['getHK05KeyName'], !0)
-    , o0O0Q0 = o0oqqq['getTaskResult'](o0oqqq['getHK06KeyName'], !0)
-    , o0O0Qo = o0oqqq['getTaskResult'](o0oqqq['getEM09KeyName'], !0)
-    , o0O0Qq = o0oqqq['getTaskResult'](o0oqqq['getHK07KeyName'], !0)
-    , o0O0QO = o0oqqq['getTaskResult'](o0oqqq['getHK08KeyName'], !0)
-    , o0O0QQ = o0oqqq['getTaskResult'](o0oqqq['getEM10KeyName'], !0)
-    , o0Oo00 = o0oqqq['getTaskResult'](o0oqqq['getACPluginsKeyName'], !0)
-    , o0Oo0o = o0oqqq['getTaskResult'](o0oqqq['getEM11KeyName'], !0);
-  plaindata[o0qOqO['FILED_PLUGINS_SLOT']] = o0Oo00;
-  var o0Oo0q = o0oqqq['getTaskResult'](o0oqqq['getOsInfoKeyName'])
-    , o0Oo0O = o0oqqq['getTaskResult'](o0oqqq['getHK09KeyName'], !0)
-    , o0Oo0Q = o0oqqq['getTaskResult'](o0oqqq['getHK10KeyName'], !0)
-    , o0Ooo0 = o0oqqq['getTaskResult'](o0oqqq['getHK11KeyName'], !0)
-    , o0Oooo = o0oqqq['getTaskResult'](o0oqqq['getEM12KeyName'], !0);
-  plaindata[o0qOqO['FILED_PLATFORM_SLOT']] = o0Oo0q[0],
-  plaindata[o0qOqO['FILED_LANGUAGE_SLOT']] = o0Oo0q[1],
-  plaindata[o0qOqO['FILED_LANGUAGES_SLOT']] = o0Oo0q[2],
-  plaindata[o0qOqO['FILED_CONNECTION_TYPE_SLOT']] = o0Oo0q[3];
-  var o0Oooq = o0oqqq['getTaskResult'](o0oqqq['getHK12KeyName'], !0)
-    , o0OooO = o0oqqq['getTaskResult'](o0oqqq['getEM13KeyName'], !0)
-    , o0OooQ = o0oqqq['getTaskResult'](o0oqqq['getHK13KeyName'], !0)
-    , o0Ooq0 = o0oqqq['getTaskResult'](o0oqqq['getHK14KeyName'], !0)
-    , o0Ooqo = o0oqqq['getTaskResult'](o0oqqq['getProxyFlagKeyName'], !0)
-    , o0Ooqq = o0oqqq['getTaskResult'](o0oqqq['getWindowPositionInfoKeyName'], !0);
-  plaindata[o0qOqO['FILED_INNER_WIDTH_WIN_POS_SLOT']] = o0Ooqq[0],
-  plaindata[o0qOqO['FILED_INNER_HEIGHT_WIN_POS_SLOT']] = o0Ooqq[1];
-  var o0OoqO = o0oqqq['getTaskResult'](o0oqqq['getEM14KeyName'], !0)
-    , o0OoqQ = o0O0q0 | o0O0qq << 1 | o0O0O0 << 2 | o0O0Oo << 3 | o0O0Oq << 4 | o0O0OQ << 5 | o0O0Q0 << 6 | o0O0Qq << 7 | o0O0QO << 8 | o0Oo0O << 9 | o0Oo0Q << 10 | o0Ooo0 << 11 | o0Oooq << 12 | o0OooQ << 13 | o0Ooq0 << 14;
-  plaindata[o0qOqO['FILED_HOOK_ATTRIBUTE_SLOT']] = o0OoqQ,
-  plaindata[o0qOqO['FILED_PROXY_FLAG_SLOT']] = o0Ooqo,
-  plaindata[o0qOqO['FILED_SCREEN_LEFT_WIN_POS_SLOT']] = o0Ooqq[2],
-  plaindata[o0qOqO['FILED_SCREEN_TOP_WIN_POS_SLOT']] = o0Ooqq[3];
-  var o0OoO0 = o0oqqq['getTaskResult'](o0oqqq['getEM15KeyName'], !0)
-    , o0OoOo = -1;
-  arg1['performance'] && arg1['performance']['now'] && (o0OoOo = 1000 * performance['now']() >> 0),
-  plaindata[o0qOqO['FILED_PERFORMANCE_SLOT']] = o0OoOo;
-  var o0OoOq = o0O00q | o0O00Q << 1 | o0O0o0 << 2 | o0O0oo << 3 | o0O0oO << 4 | o0O0oQ << 5 | (o0O0qO | o0O0qQ << 1 | o0O0OO << 2 | o0O0Qo << 3 | o0O0QQ << 4 | o0Oo0o << 5) << 6 | (o0Oooo | o0OooO << 1 | o0OoqO << 2 | o0OoO0 << 3 | o0oqqq['getTaskResult'](o0oqqq['getEM16KeyName'], !0) << 4 | o0oqqq['getTaskResult'](o0oqqq['getEM17KeyName'], !0) << 5) << 12 | (o0oqqq['getTaskResult'](o0oqqq['getEM18KeyName'], !0) | o0oqqq['getTaskResult'](o0oqqq['getEM19KeyName'], !0) << 1 | o0oqqq['getTaskResult'](o0oqqq['getEM20KeyName'], !0) << 2 | o0oqqq['getTaskResult'](o0oqqq['getEM21KeyName'], !0) << 3 | o0oqqq['getTaskResult'](o0oqqq['getEM22KeyName'], !0) << 4 | o0oqqq['getTaskResult'](o0oqqq['getEM23KeyName'], !0) << 5) << 18;
-  plaindata[o0qOqO['FILED_EMULATOR_ATTR_SLOT']] = o0OoOq,
-  plaindata[o0qOqO['FILED_AUDIO_LIST_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['getPlayableAudioInfoKeyName'], !0),
-  plaindata[o0qOqO['FILED_VIDEO_LIST_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['getPlayableVideoInfoKeyName'], !0);
-  var o0OoOO = o0oqqq['getTaskResult'](o0oqqq['getBrowserKernelInfoKeyName']);
-  plaindata[o0qOqO['FILED_BROWSER_KERNEL_TYPE_0_SLOT']] = o0OoOO[0],
-  plaindata[o0qOqO['FILED_BROWSER_KERNEL_TYPE_1_SLOT']] = o0OoOO[1],
-  plaindata[o0qOqO['FILED_CHROME_VER_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['getChromeVersionInfoKeyName']),
-  plaindata[o0qOqO['FILED_FIREFOX_VER_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['getFirefoxVersionInfoKeyName']),
-  plaindata[o0qOqO['FILED_CODE_HASH_SLOT']] = (function() {
-      var oq0q0q = oq0q0o
-        , o0OO0O = ('' + o0qOOo)['replace'](')\x20', ')');
-      return function(o0OO0Q, o0OOo0, o0OOoo) {
-          var oq0q0O = oq0q0q;
-          for (var hasil = 0, o0OOoO = o0OO0Q['length'], counter = o0OOoo || 1, c2 = o0OOo0; c2 < o0OOoO; )
-              hasil <<= 3,
-              hasil += o0OO0Q['charCodeAt'](c2),
-              c2 += counter;
-          return hasil;
-      }(o0OO0O = (o0OO0O = o0OO0O['replace'](/;}$/, '}'))['replace'](/"/g, ''), 0, 64);
-  }()),
-  plaindata[o0qOqO['FILED_TIMEZONE_OFFSET_SLOT']] = new Date()['getTimezoneOffset']();
-  var o0OoOQ = o0oqqq['getTaskResultDirectly'](o0oqqq['detectDebugKeyName'], !0)
-    , o0OoQ0 = !1;
-  'undefined' !== o0OoOQ && (o0OoQ0 = o0OoOQ),
-  plaindata[o0qOqO['FILED_DEBUGER_MODE_SLOT']] = o0OoQ0 ? 1 : 0,
-  plaindata[o0qOqO['FILED_BEAUTIFY_SOURCE_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['checkReverseKeyName']);
-  var o0OoQo = !1;
-  'undefined' !== (o0OoOQ = o0oqqq['getTaskResultDirectly'](o0oqqq['detectPrivateModeKeyName'], !0)) && (o0OoQo = o0OoOQ['isPrivateMode']),
-  plaindata[o0qOqO['FILED_INCOGNITO_MODE_SLOT']] = o0OoQo ? 1 : 0,
-  plaindata[o0qOqO['FILED_RUNNING_VIRTUAL_MACHINE_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['checkVirtualMachineKeyName']),
-  plaindata[o0qOqO['FILED_MOBILE_DEVICES_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['isMobileDeviceKeyName']),
-  plaindata[o0qOqO['FILED_FAKE_UA_SLOT']] = o0oqqq['getTaskResult'](o0oqqq['checkuaKeyName']);
-  var o0OoQq = o0qq0O['getClientCheckData']() || '';
-  (o0OoQq['length'] > 256 || o0OoQq['length'] < 100) && (o0OoQq = ''),
-  plaindata[o0qOqO['FILED_DFP_SLOT']] = o0OoQq;
-  var o0OoQO = o0oqqq['getTaskResult'](o0oqqq['netsparkerDetectKeyName'], !0)['hit'] ? 1 : 0
-    , o0OoQQ = o0oqqq['getTaskResult'](o0oqqq['appScanDetectKeyName'], !0)['hit'] ? 2 : 0
-    , o0Oq00 = o0oqqq['getTaskResult'](o0oqqq['zapDetectKeyName'], !0)['hit'] ? 4 : 0
-    , o0Oq0o = o0oqqq['getTaskResult'](o0oqqq['radDetectKeyName'], !0)['hit'] ? 8 : 0
-    , o0Oq0q = o0oqqq['getTaskResult'](o0oqqq['arachniDetectKeyName'], !0)['hit'] ? 16 : 0
-    , o0Oq0O = o0oqqq['getTaskResult'](o0oqqq['awvsDetecKeyName'], !0)['hit'] ? 32 : 0
-    , o0Oq0Q = o0oqqq['getTaskResult'](o0oqqq['domdigDetectKeyName'], !0)['hit'] ? 64 : 0
-    , o0Oqo0 = o0oqqq['getTaskResult'](o0oqqq['burpsuitDetectKeyName'], !0)['hit'] ? 128 : 0
-    , o0Oqoo = o0oqqq['getTaskResult'](o0oqqq['htcrawlDetectKeyName'], !0)['hit'] ? 256 : 0;
-  plaindata[o0qOqO['FILED_WEB_SCANNER_SLOT']] = o0OoQO | o0OoQQ | o0Oq00 | o0Oq0o | o0Oq0q | o0Oq0O | o0Oq0Q | o0Oqo0 | o0Oqoo;
-  for (var o0Oqoq = function(o0OO0O, o0OO0Q) {
-      var oq0qo0 = oq0q0o, o0OOo0;
-      switch (o0OO0O) {
-      case o0qO0Q:
-          o0OOo0 = function(o0OOoo) {
-              var oq0q0Q = O0QQQQo
-                , hasil = [];
-              return hasil['push'](255 & o0OOoo),
-              hasil;
-          }(o0OO0Q);
-          break;
-      case o0qOo0:
-          o0OOo0 = o0qqQQ(o0OO0Q);
-          break;
-      case 7:
-          o0OOo0 = o000q0['OOqQqQ'](o0qO00, o0OO0Q);
-          break;
-      case o0qOoo:
-          o0OOo0 = function(o0OOoo) {
-              var oq0qoo = oq0qo0
-                , hasil = 4294967296
-                , o0OOoO = o0OOoo / hasil | 0
-                , counter = o0OOoo - o0OOoO * hasil;
-              return o0qO00(o0OOoO)['concat'](o0qO00(counter));
-          }(o0OO0Q);
-      }
-      return o0OOo0;
-  }, o0OqoO = 0; o0OqoO < o0qOqO['FILED_BODY_TOTAL_SLOTS_NUM_SLOT']; o0OqoO++) {
-      var o0OqoQ = o0qOoO[o0OqoO]
-        , o0Oqq0 = plaindata[o0OqoQ]
-        , o0Oqqo = o0qOqO['properties'][o0OqoQ]['type']
-        , o0Oqqq = o0qOqO['properties'][o0OqoQ]['length'];
-      switch (o0Oqqo) {
-      case o0qOoQ:
-          o0qQQQ = o0qQQQ['concat'](o0Oqoq(o0Oqqq, o0Oqq0));
-          break;
-      case o0qOq0:
-          var o0OqqO = o0Oqq0['length'];
-          o0qQQQ = (o0qQQQ = o0qQQQ['concat'](o0Oqoq(o0Oqqq, o0OqqO)))['concat'](o0qO0o(o0Oqq0));
-          break;
-      case o0qOqo:
-          var o0OqqQ = o0Oqq0['length'];
-          o0qQQQ = o0qQQQ['concat'](dickKeyData['oQQoQO'](o0qqQQ, o0OqqQ));
-          for (var o0OqO0 = 0; o0OqO0 < o0OqqQ; o0OqO0++)
-              o0qQQQ = (o0qQQQ = o0qQQQ['concat'](o0qqQQ(o0Oqq0[o0OqO0]['length'])))['concat'](o0qO0o(o0Oqq0[o0OqO0]));
-          break;
-      case 2169:
-          var o0OqOo = o0Oqq0[0];
-          o0qQQQ = o0qQQQ['concat'](o0qqQQ(o0OqOo));
-          for (var o0OqOq = 0; o0OqOq < (o0OqOo > 16 ? 16 : o0OqOo); o0OqOq++)
-              o0qQQQ = (o0qQQQ = o0qQQQ['concat'](o0qqQQ(o0Oqq0[o0OqOq + 1]['length'])))['concat'](dickKeyData['OQOqoo'](o0qO0o, o0Oqq0[o0OqOq + 1]));
-      }
-  }
-  var o0OqOO = o0qQQQ['length'] % 16;
-  if (0 !== o0OqOO) {
-      for (var o0OqOQ = 16 - o0OqOO, o0OqQ0 = 0; o0OqQ0 < o0OqOQ; o0OqQ0++)
-          o0qQQQ['push'](o0OqOQ);
-  }
-  plaindatahead[o0qOqq['FILED_START_TIME_STAMP_SLOT']] = o0qO0O,
-  plaindatahead[o0qOqq['FILED_BODY_CHECKSUM_SLOT']] = function(o0OO0O) {
-      var oq0qoq = oq0q0o;
-      for (var o0OO0Q = 0, o0OOo0 = 0; o0OOo0 < o0OO0O['length']; )
-          o0OO0Q = o0OO0Q + (15 & o0OO0O[o0OOo0]) & 4294967295,
-          o0OOo0++;
-      return o0OO0Q;
-  }(o0qQQQ),
-  plaindatahead[o0qOqq['FILED_BODY_LENGTH_SLOT']] = o0qQQQ['length'],
-  plaindatahead[o0qOqq['FILED_ALGORITHM_INDICATOR_SLOT']] = 2,
-  plaindatahead[o0qOqq['FILED_VERSION_WATERMARK_SLOT']] = 3957671804,
-  plaindatahead[o0qOqq['FILED_START_TIME_STAMP_SLOT']],
-  plaindatahead[o0qOqq['FILED_BODY_CHECKSUM_SLOT']],
-  plaindatahead[o0qOqq['FILED_BODY_LENGTH_SLOT']];
-
-  for (var o0OqQo = 0; o0OqQo < o0qOqq['FILED_HEAD_TOTAL_SLOTS_NUM_SLOT']; o0OqQo++) {
-      var o0OqQq = o0qOqQ[o0OqQo]
-        , o0OqQO = plaindatahead[o0OqQq]
-        , o0OqQQ = o0qOqq['properties'][o0OqQq]['type']
-        , o0OO00 = o0qOqq['properties'][o0OqQq]['length'];
-      switch (o0OqQQ) {
-      case o0qOoQ:
-          o0qQQO = o0qQQO['concat'](o0Oqoq(o0OO00, o0OqQO));
-          break;
-      case o0qOq0:
-          var o0OO0o = o0OqQO['length'];
-          o0qQQO = (o0qQQO = o0qQQO['concat'](o0Oqoq(o0OO00, o0OO0o)))['concat'](o0qO0o(o0OqQO));
-      }
-  }
-  var o0OO0q = new Date()['getTime']();
-
-    var o0qQQQ = function(o0OO0O) {
+    for (var o0OqQo = 0; o0OqQo < o0qOqq['FILED_HEAD_TOTAL_SLOTS_NUM_SLOT']; o0OqQo++) {
+        var o0OqQq = o0qOqQ[o0OqQo]
+          , o0OqQO = plaindatahead[o0OqQq]
+          , o0OqQQ = o0qOqq['properties'][o0OqQq]['type']
+          , o0OO00 = o0qOqq['properties'][o0OqQq]['length'];
+        switch (o0OqQQ) {
+        case o0qOoQ:
+            backBuint8 = backBuint8['concat'](o0Oqoq(o0OO00, o0OqQO));
+            break;
+        case o0qOq0:
+            var o0OO0o = o0OqQO['length'];
+            backBuint8 = (backBuint8 = backBuint8['concat'](o0Oqoq(o0OO00, o0OO0o)))['concat'](o0qO0o(o0OqQO));
+        }
+    }
+    var o0OO0q = new Date()['getTime']();
+  
+    var belakangBack = function(o0OO0O) {
         for (
-            
-        var o0OO0Q = [[[2390672568, 3442448684, 33810311, 502240302], [54701232, -831703652, -865152485, -780057035], [1346035994, -1638411130, 1379468957, -2085076824], [-1953740311, 366714223, 1206033394, -1000678566], [710402054, 1066171753, 2020533915, -1137427007], [208284664, 870733457, 1267249162, -138637877], [-770408906, -504223577, -1434806099, 1573262694], [285327414, -252450671, 1518956604, 122643802], [-1416468145, 1533116894, 32043490, 111645880], [397325901, 1288648595, 1294452337, 1266701001], [1420320580, 409430231, 1430302374, 515964015]], [[1420320580, 409430231, 1430302374, 515964015], [-1470395076, -1572104359, -321731035, 1155988751], [465692450, 168827493, 1318670716, -1472971990], [-808203981, 298974535, 1149848345, -424842666], [1373305599, -570280844, 1431877214, -1574690481], [922509343, -1881616757, -1957002710, -142829807], [-95281874, -1188778348, 75648161, 2082870587], [1216012106, 1131852730, -1113136587, 2024036762], [56789883, 185363696, -19902065, -989676625], [-1998348885, 141485963, -170115713, 1003678240], [2390672568, 3442448684, 33810311, 502240302]]], 
-            
-        o0OOo0 = [[4101667470, 33620227, 2958579944, 3688947771, 2689618160, 2622377682, 67240454, 4068047243, 974986535, 2521517021, 2790478837, 2950355573, 3597364157, 2420656344, 3017069671, 2756858614, 3253595436, 4000806809, 605164086, 1109467491, 672404540, 706024767, 3287084079, 537923632, 806885416, 3521504564, 1773779408, 4193382664, 403442708, 268961816, 3825007647, 4202528135, 3925473552, 2177748300, 1907733956, 2345191491, 3622233649, 1849112409, 1277568618, 361203602, 2891339514, 1874508501, 1807268051, 1445669757, 1101901292, 4226871307, 3496503480, 4126668546, 227249030, 26054028, 3184776046, 3160301282, 1815492186, 2588757463, 1546530418, 1066570413, 1647391059, 528646813, 4294111757, 1378429307, 3765465232, 2050833735, 1512910199, 3050821474, 2008463041, 2151694528, 2142417613, 2252555205, 2286175436, 461406363, 4034427016, 3218264685, 437062935, 2454276571, 2487896798, 302582043, 3328402341, 3630984372, 235341577, 1949973070, 664706745, 2983581028, 201721354, 2546386513, 3655459128, 3294782118, 4092916743, 1748251740, 1210328172, 2992200171, 1235855840, 2924959737, 1412049534, 0, 2084453954, 773265209, 1479289972, 336202270, 874125870, 2218934982, 4026202645, 1033081774, 1740553945, 2749160575, 4059428100, 2108928974, 3563743934, 638784309, 3421038627, 100860677, 2512897874, 899127202, 1841019862, 3866325909, 3967186586, 394692241, 3722699582, 2353415882, 3832705686, 2387036105, 3151024235, 168101135, 2555137236, 1882732616, 4168907908, 1042226977, 427917720, 1303096294, 3933566367, 2723238387, 3454790438, 4260623118, 1681011286, 3899946140, 571543859, 93294474, 327451799, 160008576, 597466303, 3799085459, 1143087718, 4236148354, 563977660, 2244988746, 2118074177, 965841320, 3530123707, 3395642799, 2017213508, 3664604599, 932615841, 1604494077, 731420851, 697932208, 1714631509, 1916352843, 798661301, 2412431941, 2646852446, 631218106, 1537253627, 1673313503, 3554993207, 1571005438, 1403299063, 2824099068, 4269768577, 1437050866, 1269344483, 134480908, 3731845041, 3126681063, 1135389935, 1974974402, 1311188841, 1169141738, 2075177163, 1344809080, 2185314755, 1202630377, 1941222599, 3698224818, 369822493, 907746093, 2782912378, 126783113, 1613770832, 2041688520, 3892248089, 999329963, 3261161891, 3227541664, 2613100635, 2378943302, 3093060836, 470683154, 3320835882, 739644986, 495158174, 3488279077, 1075847264, 3387549984, 2311702848, 2857719295, 2479146071, 2319795663, 293963156, 2211236943, 1008606754, 1336584933, 3462883241, 260737669, 4135287693, 1781871967, 3084310113, 840505643, 2883115123, 2849626480, 2680341085, 2916866934, 865375399, 2715671932, 941366308, 2816401017, 1470539505, 3858759450, 3958962195, 1707065306, 3059440621, 3025820398, 504303377, 3588745010, 2579611992, 1639824860, 3117535592, 3429263018, 2445657428, 1243948399, 3354324521, 59542671, 3756188221, 3193921505, 193497219, 1503764984, 1983593293, 1369810420, 4160157185, 2278477385, 831886756, 1580150641, 3362022572, 1176707941, 3992714006, 3791519004, 2655997905, 765172662], [2398386810, 50462977, 3903871064, 1004265696, 4037038160, 3533459022, 100925954, 2347923833, 658119965, 3717614411, 4121318227, 1974459098, 3184946027, 3633334344, 1739838676, 4137964114, 750906861, 2582542199, 908333586, 1665278241, 1009259540, 1059722517, 801369324, 807407632, 674240536, 886171109, 3496589753, 150598129, 337120268, 403703816, 535035132, 2281340285, 283769337, 1283575245, 3295786421, 1133234376, 836232934, 1500395319, 1783375398, 2450884487, 4205598294, 3580869306, 3547052216, 2102799147, 3963727277, 201060592, 3100665960, 49674231, 2249034635, 2348912013, 1857934291, 3803995742, 1517041206, 3617213773, 1918643758, 2906624658, 1398944049, 2636087938, 234877682, 2068982057, 2430627952, 1199193405, 2002398509, 1656084439, 3245848246, 3229630528, 3447698098, 3313910595, 3431482436, 2602270848, 2297460856, 1841287890, 387583245, 3683797321, 3734260298, 454166793, 2781242211, 3034082412, 151914247, 1316239930, 3106381470, 1689376213, 168560134, 1368901318, 953803233, 2797888098, 133428468, 1550332980, 1816667172, 3954334041, 3762923945, 4188952407, 2119445034, 0, 1115438654, 959321879, 1951935532, 504629770, 775166490, 3330556482, 368048890, 2923271059, 3647454910, 2141445340, 82966005, 3464344499, 3201591914, 891687699, 600565992, 84280067, 1385547719, 2721421207, 3597515707, 2514908019, 2599188086, 2434238086, 1054729187, 3398190662, 2531553906, 3381544775, 1807470800, 252314885, 3566750796, 1215313976, 2230877308, 557719327, 2551808385, 3863849899, 2682942837, 4087501137, 651029483, 251524083, 1449407026, 2632479860, 857870609, 2315620239, 2534638724, 2148108681, 3206782108, 2481090929, 1715741218, 2197585534, 3156319645, 1250283471, 1098792767, 2822345105, 3151128937, 2949277029, 1148730428, 3084545389, 2704774806, 4250903202, 3005978776, 2955516313, 1432761139, 1265776953, 3039795866, 1167051466, 1587397571, 3123027871, 4217086112, 3747855548, 936633572, 4267549603, 4149453988, 4238890068, 2180939647, 4065699751, 3813386408, 201851908, 2984144751, 3887750493, 4014189740, 3262494647, 1766729511, 3930435503, 3413881008, 2018519080, 3280093505, 3913789102, 3346248884, 3000790638, 487983883, 758520603, 2057691103, 2298973838, 1348481072, 3363418545, 434634494, 2872807568, 2747425121, 2696962144, 1536934080, 1183697867, 3837287516, 303828494, 717615087, 975967766, 2652734339, 634383082, 1614815264, 550103529, 1082771913, 4289353045, 1469301956, 3481945413, 2484176261, 1334037708, 574365214, 3847203498, 2848876391, 2232388234, 2381740923, 1600795957, 1639438038, 724703513, 1940642008, 1890179545, 1570751170, 1991105499, 2805175444, 2090982877, 607656988, 2041044702, 4049053350, 451280895, 334231800, 3664101311, 3988151131, 4004797018, 287182607, 852879335, 1486471617, 3697393085, 1757008337, 2865522278, 1418839493, 1867130149, 700968686, 2399374476, 1038082786, 3787349855, 2198571144, 4166623649, 1299594043, 4098991525, 33027830, 1233637070, 2754712981, 1901997871, 2898814052, 1699095331, 384695291, 484572669, 3516813135, 3056442267], [2056189050, 16974337, 1491644504, 3762019296, 1357946960, 1322425422, 33948674, 2039214713, 489110045, 1272813131, 1408607827, 3665145818, 1807603307, 1222152264, 3563566036, 1391895634, 3979133421, 2006576759, 305538066, 560153121, 339486740, 356461077, 3962553324, 271589392, 405286936, 3845444069, 3117443513, 4043897329, 202643468, 135794696, 4229948412, 2106063485, 4178635257, 3444343245, 3049550261, 3359869896, 3862026214, 928607799, 644500518, 2274497927, 1459268694, 3134549946, 3100863416, 729634347, 2917941677, 4027317232, 1756942440, 4144166391, 2340818315, 2374762893, 3547250131, 1591917662, 911895606, 1305975373, 779246638, 2460827538, 827548209, 2191335298, 4061003762, 695947817, 1888542832, 1028094525, 762796589, 3613570519, 3066132406, 1086357568, 2999812018, 1137018435, 1154254916, 2157648768, 2022240376, 3530407890, 219617805, 1239126601, 1256100938, 152769033, 1671808611, 1823791212, 118033927, 978220090, 2662934430, 3580146133, 101321734, 3327236038, 3778599393, 1655096418, 4094161908, 878471220, 611076132, 1508618841, 2850048425, 1475980887, 712922154, 0, 1044544574, 389623319, 745822252, 169743370, 439235610, 1120306242, 4195741690, 2477669779, 3201918910, 3699352540, 4110742005, 3016654259, 1790891114, 322250259, 3894660072, 50660867, 3344078279, 2543990167, 3151392187, 1939203699, 1989864566, 2257655686, 3812548067, 1187679302, 1922491506, 1204391495, 3496721360, 84871685, 1289001036, 944271416, 2089089148, 522272287, 2174228865, 2883997099, 1973414517, 1374921297, 3945188843, 4077846003, 844522546, 1956440180, 288563729, 2408187279, 2224493444, 2306869641, 2629772188, 1905517169, 577127458, 2122513534, 2646352285, 3477767631, 1061256767, 2443721105, 1773916777, 1706019429, 1011120188, 1840765549, 2527147926, 2734514082, 2561878936, 2578459033, 861234739, 961245753, 2595565466, 3393556426, 3277757891, 2679776671, 2700827552, 3168756668, 3828863972, 2751356323, 2767672228, 1425844308, 2139225727, 2817676711, 2833468328, 67897348, 1873927791, 1575467613, 2901361580, 3082974647, 661212711, 2951366063, 2966125488, 678973480, 1103331905, 2934523822, 3032970164, 1857215598, 186455563, 455947803, 3749357023, 2391345038, 810573872, 2982705585, 4263110654, 2427141008, 1638122081, 1621147744, 3227229120, 3410398667, 1558493276, 236067854, 4012557807, 372911126, 2208177539, 3928346602, 543178784, 3911240169, 3376449993, 1442818645, 3294073796, 1171229253, 2241073541, 3427763148, 505560094, 2867154858, 1739181671, 2323976074, 2072901243, 895445557, 3596728278, 422261273, 3631459288, 3648039385, 3260915650, 3681988059, 2493985684, 3715932637, 472135708, 3732514782, 2800834470, 4279952895, 4162055160, 3218761151, 1542305371, 1525593178, 252780047, 3878868455, 3243809217, 3185336765, 3513301457, 1722469478, 3310653893, 628050469, 3995715566, 2358182796, 3795705826, 1608629855, 2290289544, 2717407649, 994932283, 2784252325, 4127324150, 3460925390, 2510565781, 795958831, 1689045092, 593839651, 4212583931, 4246528509, 1339137615, 2612407707], [2054852340, 16843522, 1482221744, 3772791771, 1347481760, 1313788572, 33687044, 2038008818, 488449850, 1263263126, 1398011302, 3671750063, 1802223062, 1212733584, 3570689971, 1381168804, 3991743681, 2004326894, 303183396, 555836226, 336870440, 353713962, 3974901699, 269496352, 404236336, 3857003729, 3115962473, 4059105529, 202118168, 134748176, 4244381667, 2105378810, 4193849577, 3452783745, 3048588401, 3368567691, 3873845719, 926374254, 640051788, 2273808917, 1448540844, 3132806511, 3099120491, 724270422, 2913856577, 4042263547, 1751693520, 4160160501, 2341176845, 2374863873, 3553849021, 1583276732, 909531756, 1296947098, 774795868, 2459086143, 825316194, 2189597983, 4075949567, 690584402, 1886425312, 1027426170, 757954394, 3621216949, 3065430391, 1077985408, 2998062463, 1128514950, 1145359496, 2155911963, 2021165296, 3537006015, 218961690, 1229577106, 1246420628, 151591698, 1667474886, 1819063512, 117901582, 976899700, 2661202215, 3587531953, 101059084, 3334885783, 3789633753, 1650632388, 4109633523, 875846760, 606366792, 1499065266, 2846482505, 1465383342, 707427924, 0, 1044267644, 387397934, 741110872, 168435220, 437923380, 1111672452, 4210693615, 2475929149, 3200178535, 3705438115, 4126475505, 3014905469, 1785380564, 320025894, 3907527627, 50529542, 3351728789, 2543297077, 3149649517, 1936954854, 1987484396, 2256965911, 3823320797, 1179044492, 1920112356, 1195886990, 3503319995, 84217610, 1280103576, 943212656, 2088535288, 522133822, 2172753945, 2880169549, 1970642922, 1364325282, 3958056653, 4092792573, 842159716, 1953799400, 286339874, 2408548869, 2223281939, 2307489801, 2627518243, 1903268834, 572679748, 2122220284, 2644360225, 3486468741, 1061110142, 2442242105, 1768537042, 1701162954, 1010582648, 1835907034, 2526454071, 2728590687, 2560144171, 2576986153, 859002214, 960056178, 2593830191, 3402253711, 3284360861, 2678045221, 2694904667, 3166494563, 3840161747, 2745433693, 2762274643, 1414855848, 2139062782, 2812801621, 2829640523, 67374088, 1869591006, 1566435258, 2897014595, 3082273397, 656894286, 2947541573, 2964376443, 673740880, 1094828930, 2930698567, 3031746419, 1852748508, 185277718, 454765878, 3755965093, 2391705863, 808472672, 2981218425, 4278065639, 2425400123, 1633788866, 1616945344, 3233831835, 3419096717, 1549591736, 235803164, 4025428677, 370555436, 2206440989, 3941213647, 538992704, 3924369609, 3385409673, 1431699370, 3301201811, 1162203018, 2240123921, 3435941763, 505291324, 2863326543, 1734846926, 2324333839, 2071694838, 892690282, 3604373943, 421079858, 3638064043, 3654906025, 3267517855, 3688593069, 2492770099, 3722280097, 471606328, 3739122087, 2795958615, 4294908645, 4177007595, 3217021541, 1532751286, 1515908788, 252645662, 3890688725, 3250673817, 3183336545, 3520161977, 1718004428, 3318043793, 623210314, 4008585671, 2358021891, 3806477791, 1600119230, 2290647819, 2711746649, 993742198, 2779116625, 4143317495, 3469625735, 2509612081, 791638366, 1684319432, 589522246, 4227536621, 4261223649, 1330631070, 2610673197]], 
-            
-        o0OOoo = [122, 1, 88, 224, 80, 78, 2, 121, 29, 75, 83, 218, 107, 72, 212, 82, 237, 119, 18, 33, 20, 21, 236, 16, 24, 229, 185, 241, 12, 8, 252, 125, 249, 205, 181, 200, 230, 55, 38, 135, 86, 186, 184, 43, 173, 240, 104, 247, 139, 141, 211, 94, 54, 77, 46, 146, 49, 130, 242, 41, 112, 61, 45, 215, 182, 64, 178, 67, 68, 128, 120, 210, 13, 73, 74, 9, 99, 108, 7, 58, 158, 213, 6, 198, 225, 98, 244, 52, 36, 89, 169, 87, 42, 0, 62, 23, 44, 10, 26, 66, 250, 147, 190, 220, 245, 179, 106, 19, 232, 3, 199, 151, 187, 115, 118, 134, 227, 70, 114, 71, 208, 5, 76, 56, 124, 31, 129, 171, 117, 81, 235, 243, 50, 116, 17, 143, 132, 137, 156, 113, 34, 126, 157, 207, 63, 145, 105, 101, 60, 109, 150, 162, 152, 153, 51, 57, 154, 202, 195, 159, 160, 188, 228, 163, 164, 84, 127, 167, 168, 4, 111, 93, 172, 183, 39, 175, 176, 40, 65, 174, 180, 110, 11, 27, 223, 142, 48, 177, 254, 144, 97, 96, 192, 203, 92, 14, 239, 22, 131, 234, 32, 233, 201, 85, 196, 69, 133, 204, 30, 170, 103, 138, 123, 53, 214, 25, 216, 217, 194, 219, 148, 221, 28, 222, 166, 255, 248, 191, 91, 90, 15, 231, 193, 189, 209, 102, 197, 37, 238, 140, 226, 95, 136, 161, 59, 165, 246, 206, 149, 47, 100, 35, 251, 253, 79, 155], 
-            
-        hasil = [], 
-            
-        o0OOoO = Math['ceil'](o0OO0O['length'] / 16),
-        
-        counter = 0;
-        
-        counter < o0OOoO; counter++) {
-        
-            var c2, c3, o0OOqq = o0OO0O['slice'](16 * counter, 16 * counter + 16), o0OOqO = [0, 0, 0, 0], o0OOqQ = [], o0OOO0 = o0OO0Q[0];
-            
-            for (c2 = 0; c2 < 4; c2++)
-                o0OOqQ[c2] = o0OOqq[c2 << 2] << 24 | o0OOqq[1 + (c2 << 2)] << 16 | o0OOqq[2 + (c2 << 2)] << 8 | o0OOqq[3 + (c2 << 2)],
-                o0OOqQ[c2] = o0OOqQ[c2] ^ o0OOO0[0][c2];
+              
+          var o0OO0Q = [[[2390672568, 3442448684, 33810311, 502240302], [54701232, -831703652, -865152485, -780057035], [1346035994, -1638411130, 1379468957, -2085076824], [-1953740311, 366714223, 1206033394, -1000678566], [710402054, 1066171753, 2020533915, -1137427007], [208284664, 870733457, 1267249162, -138637877], [-770408906, -504223577, -1434806099, 1573262694], [285327414, -252450671, 1518956604, 122643802], [-1416468145, 1533116894, 32043490, 111645880], [397325901, 1288648595, 1294452337, 1266701001], [1420320580, 409430231, 1430302374, 515964015]], [[1420320580, 409430231, 1430302374, 515964015], [-1470395076, -1572104359, -321731035, 1155988751], [465692450, 168827493, 1318670716, -1472971990], [-808203981, 298974535, 1149848345, -424842666], [1373305599, -570280844, 1431877214, -1574690481], [922509343, -1881616757, -1957002710, -142829807], [-95281874, -1188778348, 75648161, 2082870587], [1216012106, 1131852730, -1113136587, 2024036762], [56789883, 185363696, -19902065, -989676625], [-1998348885, 141485963, -170115713, 1003678240], [2390672568, 3442448684, 33810311, 502240302]]], 
+              
+          o0OOo0 = [[4101667470, 33620227, 2958579944, 3688947771, 2689618160, 2622377682, 67240454, 4068047243, 974986535, 2521517021, 2790478837, 2950355573, 3597364157, 2420656344, 3017069671, 2756858614, 3253595436, 4000806809, 605164086, 1109467491, 672404540, 706024767, 3287084079, 537923632, 806885416, 3521504564, 1773779408, 4193382664, 403442708, 268961816, 3825007647, 4202528135, 3925473552, 2177748300, 1907733956, 2345191491, 3622233649, 1849112409, 1277568618, 361203602, 2891339514, 1874508501, 1807268051, 1445669757, 1101901292, 4226871307, 3496503480, 4126668546, 227249030, 26054028, 3184776046, 3160301282, 1815492186, 2588757463, 1546530418, 1066570413, 1647391059, 528646813, 4294111757, 1378429307, 3765465232, 2050833735, 1512910199, 3050821474, 2008463041, 2151694528, 2142417613, 2252555205, 2286175436, 461406363, 4034427016, 3218264685, 437062935, 2454276571, 2487896798, 302582043, 3328402341, 3630984372, 235341577, 1949973070, 664706745, 2983581028, 201721354, 2546386513, 3655459128, 3294782118, 4092916743, 1748251740, 1210328172, 2992200171, 1235855840, 2924959737, 1412049534, 0, 2084453954, 773265209, 1479289972, 336202270, 874125870, 2218934982, 4026202645, 1033081774, 1740553945, 2749160575, 4059428100, 2108928974, 3563743934, 638784309, 3421038627, 100860677, 2512897874, 899127202, 1841019862, 3866325909, 3967186586, 394692241, 3722699582, 2353415882, 3832705686, 2387036105, 3151024235, 168101135, 2555137236, 1882732616, 4168907908, 1042226977, 427917720, 1303096294, 3933566367, 2723238387, 3454790438, 4260623118, 1681011286, 3899946140, 571543859, 93294474, 327451799, 160008576, 597466303, 3799085459, 1143087718, 4236148354, 563977660, 2244988746, 2118074177, 965841320, 3530123707, 3395642799, 2017213508, 3664604599, 932615841, 1604494077, 731420851, 697932208, 1714631509, 1916352843, 798661301, 2412431941, 2646852446, 631218106, 1537253627, 1673313503, 3554993207, 1571005438, 1403299063, 2824099068, 4269768577, 1437050866, 1269344483, 134480908, 3731845041, 3126681063, 1135389935, 1974974402, 1311188841, 1169141738, 2075177163, 1344809080, 2185314755, 1202630377, 1941222599, 3698224818, 369822493, 907746093, 2782912378, 126783113, 1613770832, 2041688520, 3892248089, 999329963, 3261161891, 3227541664, 2613100635, 2378943302, 3093060836, 470683154, 3320835882, 739644986, 495158174, 3488279077, 1075847264, 3387549984, 2311702848, 2857719295, 2479146071, 2319795663, 293963156, 2211236943, 1008606754, 1336584933, 3462883241, 260737669, 4135287693, 1781871967, 3084310113, 840505643, 2883115123, 2849626480, 2680341085, 2916866934, 865375399, 2715671932, 941366308, 2816401017, 1470539505, 3858759450, 3958962195, 1707065306, 3059440621, 3025820398, 504303377, 3588745010, 2579611992, 1639824860, 3117535592, 3429263018, 2445657428, 1243948399, 3354324521, 59542671, 3756188221, 3193921505, 193497219, 1503764984, 1983593293, 1369810420, 4160157185, 2278477385, 831886756, 1580150641, 3362022572, 1176707941, 3992714006, 3791519004, 2655997905, 765172662], [2398386810, 50462977, 3903871064, 1004265696, 4037038160, 3533459022, 100925954, 2347923833, 658119965, 3717614411, 4121318227, 1974459098, 3184946027, 3633334344, 1739838676, 4137964114, 750906861, 2582542199, 908333586, 1665278241, 1009259540, 1059722517, 801369324, 807407632, 674240536, 886171109, 3496589753, 150598129, 337120268, 403703816, 535035132, 2281340285, 283769337, 1283575245, 3295786421, 1133234376, 836232934, 1500395319, 1783375398, 2450884487, 4205598294, 3580869306, 3547052216, 2102799147, 3963727277, 201060592, 3100665960, 49674231, 2249034635, 2348912013, 1857934291, 3803995742, 1517041206, 3617213773, 1918643758, 2906624658, 1398944049, 2636087938, 234877682, 2068982057, 2430627952, 1199193405, 2002398509, 1656084439, 3245848246, 3229630528, 3447698098, 3313910595, 3431482436, 2602270848, 2297460856, 1841287890, 387583245, 3683797321, 3734260298, 454166793, 2781242211, 3034082412, 151914247, 1316239930, 3106381470, 1689376213, 168560134, 1368901318, 953803233, 2797888098, 133428468, 1550332980, 1816667172, 3954334041, 3762923945, 4188952407, 2119445034, 0, 1115438654, 959321879, 1951935532, 504629770, 775166490, 3330556482, 368048890, 2923271059, 3647454910, 2141445340, 82966005, 3464344499, 3201591914, 891687699, 600565992, 84280067, 1385547719, 2721421207, 3597515707, 2514908019, 2599188086, 2434238086, 1054729187, 3398190662, 2531553906, 3381544775, 1807470800, 252314885, 3566750796, 1215313976, 2230877308, 557719327, 2551808385, 3863849899, 2682942837, 4087501137, 651029483, 251524083, 1449407026, 2632479860, 857870609, 2315620239, 2534638724, 2148108681, 3206782108, 2481090929, 1715741218, 2197585534, 3156319645, 1250283471, 1098792767, 2822345105, 3151128937, 2949277029, 1148730428, 3084545389, 2704774806, 4250903202, 3005978776, 2955516313, 1432761139, 1265776953, 3039795866, 1167051466, 1587397571, 3123027871, 4217086112, 3747855548, 936633572, 4267549603, 4149453988, 4238890068, 2180939647, 4065699751, 3813386408, 201851908, 2984144751, 3887750493, 4014189740, 3262494647, 1766729511, 3930435503, 3413881008, 2018519080, 3280093505, 3913789102, 3346248884, 3000790638, 487983883, 758520603, 2057691103, 2298973838, 1348481072, 3363418545, 434634494, 2872807568, 2747425121, 2696962144, 1536934080, 1183697867, 3837287516, 303828494, 717615087, 975967766, 2652734339, 634383082, 1614815264, 550103529, 1082771913, 4289353045, 1469301956, 3481945413, 2484176261, 1334037708, 574365214, 3847203498, 2848876391, 2232388234, 2381740923, 1600795957, 1639438038, 724703513, 1940642008, 1890179545, 1570751170, 1991105499, 2805175444, 2090982877, 607656988, 2041044702, 4049053350, 451280895, 334231800, 3664101311, 3988151131, 4004797018, 287182607, 852879335, 1486471617, 3697393085, 1757008337, 2865522278, 1418839493, 1867130149, 700968686, 2399374476, 1038082786, 3787349855, 2198571144, 4166623649, 1299594043, 4098991525, 33027830, 1233637070, 2754712981, 1901997871, 2898814052, 1699095331, 384695291, 484572669, 3516813135, 3056442267], [2056189050, 16974337, 1491644504, 3762019296, 1357946960, 1322425422, 33948674, 2039214713, 489110045, 1272813131, 1408607827, 3665145818, 1807603307, 1222152264, 3563566036, 1391895634, 3979133421, 2006576759, 305538066, 560153121, 339486740, 356461077, 3962553324, 271589392, 405286936, 3845444069, 3117443513, 4043897329, 202643468, 135794696, 4229948412, 2106063485, 4178635257, 3444343245, 3049550261, 3359869896, 3862026214, 928607799, 644500518, 2274497927, 1459268694, 3134549946, 3100863416, 729634347, 2917941677, 4027317232, 1756942440, 4144166391, 2340818315, 2374762893, 3547250131, 1591917662, 911895606, 1305975373, 779246638, 2460827538, 827548209, 2191335298, 4061003762, 695947817, 1888542832, 1028094525, 762796589, 3613570519, 3066132406, 1086357568, 2999812018, 1137018435, 1154254916, 2157648768, 2022240376, 3530407890, 219617805, 1239126601, 1256100938, 152769033, 1671808611, 1823791212, 118033927, 978220090, 2662934430, 3580146133, 101321734, 3327236038, 3778599393, 1655096418, 4094161908, 878471220, 611076132, 1508618841, 2850048425, 1475980887, 712922154, 0, 1044544574, 389623319, 745822252, 169743370, 439235610, 1120306242, 4195741690, 2477669779, 3201918910, 3699352540, 4110742005, 3016654259, 1790891114, 322250259, 3894660072, 50660867, 3344078279, 2543990167, 3151392187, 1939203699, 1989864566, 2257655686, 3812548067, 1187679302, 1922491506, 1204391495, 3496721360, 84871685, 1289001036, 944271416, 2089089148, 522272287, 2174228865, 2883997099, 1973414517, 1374921297, 3945188843, 4077846003, 844522546, 1956440180, 288563729, 2408187279, 2224493444, 2306869641, 2629772188, 1905517169, 577127458, 2122513534, 2646352285, 3477767631, 1061256767, 2443721105, 1773916777, 1706019429, 1011120188, 1840765549, 2527147926, 2734514082, 2561878936, 2578459033, 861234739, 961245753, 2595565466, 3393556426, 3277757891, 2679776671, 2700827552, 3168756668, 3828863972, 2751356323, 2767672228, 1425844308, 2139225727, 2817676711, 2833468328, 67897348, 1873927791, 1575467613, 2901361580, 3082974647, 661212711, 2951366063, 2966125488, 678973480, 1103331905, 2934523822, 3032970164, 1857215598, 186455563, 455947803, 3749357023, 2391345038, 810573872, 2982705585, 4263110654, 2427141008, 1638122081, 1621147744, 3227229120, 3410398667, 1558493276, 236067854, 4012557807, 372911126, 2208177539, 3928346602, 543178784, 3911240169, 3376449993, 1442818645, 3294073796, 1171229253, 2241073541, 3427763148, 505560094, 2867154858, 1739181671, 2323976074, 2072901243, 895445557, 3596728278, 422261273, 3631459288, 3648039385, 3260915650, 3681988059, 2493985684, 3715932637, 472135708, 3732514782, 2800834470, 4279952895, 4162055160, 3218761151, 1542305371, 1525593178, 252780047, 3878868455, 3243809217, 3185336765, 3513301457, 1722469478, 3310653893, 628050469, 3995715566, 2358182796, 3795705826, 1608629855, 2290289544, 2717407649, 994932283, 2784252325, 4127324150, 3460925390, 2510565781, 795958831, 1689045092, 593839651, 4212583931, 4246528509, 1339137615, 2612407707], [2054852340, 16843522, 1482221744, 3772791771, 1347481760, 1313788572, 33687044, 2038008818, 488449850, 1263263126, 1398011302, 3671750063, 1802223062, 1212733584, 3570689971, 1381168804, 3991743681, 2004326894, 303183396, 555836226, 336870440, 353713962, 3974901699, 269496352, 404236336, 3857003729, 3115962473, 4059105529, 202118168, 134748176, 4244381667, 2105378810, 4193849577, 3452783745, 3048588401, 3368567691, 3873845719, 926374254, 640051788, 2273808917, 1448540844, 3132806511, 3099120491, 724270422, 2913856577, 4042263547, 1751693520, 4160160501, 2341176845, 2374863873, 3553849021, 1583276732, 909531756, 1296947098, 774795868, 2459086143, 825316194, 2189597983, 4075949567, 690584402, 1886425312, 1027426170, 757954394, 3621216949, 3065430391, 1077985408, 2998062463, 1128514950, 1145359496, 2155911963, 2021165296, 3537006015, 218961690, 1229577106, 1246420628, 151591698, 1667474886, 1819063512, 117901582, 976899700, 2661202215, 3587531953, 101059084, 3334885783, 3789633753, 1650632388, 4109633523, 875846760, 606366792, 1499065266, 2846482505, 1465383342, 707427924, 0, 1044267644, 387397934, 741110872, 168435220, 437923380, 1111672452, 4210693615, 2475929149, 3200178535, 3705438115, 4126475505, 3014905469, 1785380564, 320025894, 3907527627, 50529542, 3351728789, 2543297077, 3149649517, 1936954854, 1987484396, 2256965911, 3823320797, 1179044492, 1920112356, 1195886990, 3503319995, 84217610, 1280103576, 943212656, 2088535288, 522133822, 2172753945, 2880169549, 1970642922, 1364325282, 3958056653, 4092792573, 842159716, 1953799400, 286339874, 2408548869, 2223281939, 2307489801, 2627518243, 1903268834, 572679748, 2122220284, 2644360225, 3486468741, 1061110142, 2442242105, 1768537042, 1701162954, 1010582648, 1835907034, 2526454071, 2728590687, 2560144171, 2576986153, 859002214, 960056178, 2593830191, 3402253711, 3284360861, 2678045221, 2694904667, 3166494563, 3840161747, 2745433693, 2762274643, 1414855848, 2139062782, 2812801621, 2829640523, 67374088, 1869591006, 1566435258, 2897014595, 3082273397, 656894286, 2947541573, 2964376443, 673740880, 1094828930, 2930698567, 3031746419, 1852748508, 185277718, 454765878, 3755965093, 2391705863, 808472672, 2981218425, 4278065639, 2425400123, 1633788866, 1616945344, 3233831835, 3419096717, 1549591736, 235803164, 4025428677, 370555436, 2206440989, 3941213647, 538992704, 3924369609, 3385409673, 1431699370, 3301201811, 1162203018, 2240123921, 3435941763, 505291324, 2863326543, 1734846926, 2324333839, 2071694838, 892690282, 3604373943, 421079858, 3638064043, 3654906025, 3267517855, 3688593069, 2492770099, 3722280097, 471606328, 3739122087, 2795958615, 4294908645, 4177007595, 3217021541, 1532751286, 1515908788, 252645662, 3890688725, 3250673817, 3183336545, 3520161977, 1718004428, 3318043793, 623210314, 4008585671, 2358021891, 3806477791, 1600119230, 2290647819, 2711746649, 993742198, 2779116625, 4143317495, 3469625735, 2509612081, 791638366, 1684319432, 589522246, 4227536621, 4261223649, 1330631070, 2610673197]], 
+              
+          o0OOoo = [122, 1, 88, 224, 80, 78, 2, 121, 29, 75, 83, 218, 107, 72, 212, 82, 237, 119, 18, 33, 20, 21, 236, 16, 24, 229, 185, 241, 12, 8, 252, 125, 249, 205, 181, 200, 230, 55, 38, 135, 86, 186, 184, 43, 173, 240, 104, 247, 139, 141, 211, 94, 54, 77, 46, 146, 49, 130, 242, 41, 112, 61, 45, 215, 182, 64, 178, 67, 68, 128, 120, 210, 13, 73, 74, 9, 99, 108, 7, 58, 158, 213, 6, 198, 225, 98, 244, 52, 36, 89, 169, 87, 42, 0, 62, 23, 44, 10, 26, 66, 250, 147, 190, 220, 245, 179, 106, 19, 232, 3, 199, 151, 187, 115, 118, 134, 227, 70, 114, 71, 208, 5, 76, 56, 124, 31, 129, 171, 117, 81, 235, 243, 50, 116, 17, 143, 132, 137, 156, 113, 34, 126, 157, 207, 63, 145, 105, 101, 60, 109, 150, 162, 152, 153, 51, 57, 154, 202, 195, 159, 160, 188, 228, 163, 164, 84, 127, 167, 168, 4, 111, 93, 172, 183, 39, 175, 176, 40, 65, 174, 180, 110, 11, 27, 223, 142, 48, 177, 254, 144, 97, 96, 192, 203, 92, 14, 239, 22, 131, 234, 32, 233, 201, 85, 196, 69, 133, 204, 30, 170, 103, 138, 123, 53, 214, 25, 216, 217, 194, 219, 148, 221, 28, 222, 166, 255, 248, 191, 91, 90, 15, 231, 193, 189, 209, 102, 197, 37, 238, 140, 226, 95, 136, 161, 59, 165, 246, 206, 149, 47, 100, 35, 251, 253, 79, 155], 
+              
+          hasil = [], 
+              
+          o0OOoO = Math['ceil'](o0OO0O['length'] / 16),
+          
+          counter = 0;
+          
+          counter < o0OOoO; counter++) {
+          
+              var c2, c3, o0OOqq = o0OO0O['slice'](16 * counter, 16 * counter + 16), o0OOqO = [0, 0, 0, 0], o0OOqQ = [], o0OOO0 = o0OO0Q[0];
+              
+              for (c2 = 0; c2 < 4; c2++)
+                  o0OOqQ[c2] = o0OOqq[c2 << 2] << 24 | o0OOqq[1 + (c2 << 2)] << 16 | o0OOqq[2 + (c2 << 2)] << 8 | o0OOqq[3 + (c2 << 2)],
+                  o0OOqQ[c2] = o0OOqQ[c2] ^ o0OOO0[0][c2];
+  
+              var o0OOOo = o0OOo0;
+              for (c3 = 1; c3 < 10; c3++) {
+                  for (c2 = 0; c2 < 4; c2++)
+                      o0OOqO[c2] = o0OOOo[0][o0OOqQ[c2] >> 24 & 255] ^ o0OOOo[1][o0OOqQ[c2 + 1 & 3] >> 16 & 255] ^ o0OOOo[2][o0OOqQ[c2 + 2 & 3] >> 8 & 255] ^ o0OOOo[3][255 & o0OOqQ[c2 + 3 & 3]] ^ o0OOO0[c3][c2];
+                  o0OOqQ = o0OOqO['slice']();
+              }
+  
+              var o0OOOq, o0OOOO = [], o0OOOQ = o0OOoo;
+              for (c2 = 0; c2 < 4; c2++)
+                  o0OOOq = o0OOO0[10][c2],
+                  o0OOOO[c2 << 2] = 255 & (o0OOOQ[o0OOqQ[c2] >> 24 & 255] ^ o0OOOq >> 24),
+                  o0OOOO[1 + (c2 << 2)] = 255 & (o0OOOQ[o0OOqQ[c2 + 1 & 3] >> 16 & 255] ^ o0OOOq >> 16),
+                  o0OOOO[2 + (c2 << 2)] = 255 & (o0OOOQ[o0OOqQ[c2 + 2 & 3] >> 8 & 255] ^ o0OOOq >> 8),
+                  o0OOOO[3 + (c2 << 2)] = 255 & (o0OOOQ[255 & o0OOqQ[c2 + 3 & 3]] ^ o0OOOq);
+              hasil = hasil['concat'](o0OOOO);
+        }
+        return hasil;
+  
+      }(belakangBack);
+  
+  
+  
+  
+      var belakangBack = []['slice']['call'](belakangBack)
+      
+      new Date()['getTime']();
+  
+      var backBuint8 = backBuint8['concat'](belakangBack);
 
-            var o0OOOo = o0OOo0;
-            for (c3 = 1; c3 < 10; c3++) {
-                for (c2 = 0; c2 < 4; c2++)
-                    o0OOqO[c2] = o0OOOo[0][o0OOqQ[c2] >> 24 & 255] ^ o0OOOo[1][o0OOqQ[c2 + 1 & 3] >> 16 & 255] ^ o0OOOo[2][o0OOqQ[c2 + 2 & 3] >> 8 & 255] ^ o0OOOo[3][255 & o0OOqQ[c2 + 3 & 3]] ^ o0OOO0[c3][c2];
-                o0OOqQ = o0OOqO['slice']();
-            }
+      var uint8belakang = o0qoq0(backBuint8);
 
-            var o0OOOq, o0OOOO = [], o0OOOQ = o0OOoo;
-            for (c2 = 0; c2 < 4; c2++)
-                o0OOOq = o0OOO0[10][c2],
-                o0OOOO[c2 << 2] = 255 & (o0OOOQ[o0OOqQ[c2] >> 24 & 255] ^ o0OOOq >> 24),
-                o0OOOO[1 + (c2 << 2)] = 255 & (o0OOOQ[o0OOqQ[c2 + 1 & 3] >> 16 & 255] ^ o0OOOq >> 16),
-                o0OOOO[2 + (c2 << 2)] = 255 & (o0OOOQ[o0OOqQ[c2 + 2 & 3] >> 8 & 255] ^ o0OOOq >> 8),
-                o0OOOO[3 + (c2 << 2)] = 255 & (o0OOOQ[255 & o0OOqQ[c2 + 3 & 3]] ^ o0OOOq);
-            hasil = hasil['concat'](o0OOOO);
-      }
-      return hasil;
-
-    }(o0qQQQ);
-
-
-
-
-    var o0qQQQ = []['slice']['call'](o0qQQQ)
-    
-    new Date()['getTime']();
-
-    var o0qQQO = o0qQQO['concat'](o0qQQQ);
-
-    hasil['push'](o0qoq0(o0qQQO));
-    
-    return hasil
+      hasil['push'](uint8belakang);
+      
+      return hasil
 }

@@ -9691,7 +9691,7 @@
                         return dickKeyData['qQoooQ'](o0qQQq, o0qQQO);
                     }
                     ,
-                    o0qQQo['QqQoOq'] = 'Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.',
+                    o0qQQo['QqQoOq'] = 'Failed to execute \'atob\' on \'Window\': The string to be decoded is not correctly encoded.',
                     o0qQQo['QQQoqO'] = dickKeyData['oQOqoQ'],
                     o0qQQo['QOoqOQ'] = 'B/n2/k`hk][/o]Z/j]hgjl;58',
                     o0qQQo['OOqOoO'] = 'updateCollectTime',
@@ -16920,8 +16920,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                   , o0qOoO = [0x1c, 0xf, 0xd, 0x19, 0x3, 0x25, 0x5, 0x1a, 0x6, 0x15, 0x20, 0x8, 0x23, 0x1b, 0x1, 0xc, 0xa, 0x0, 0x14, 0x2, 0x22, 0xb, 0x1e, 0x16, 0x17, 0x4, 0x26, 0x18, 0xe, 0x1d, 0x9, 0x7, 0x11, 0x13, 0x12, 0x24, 0x21, 0x1f, 0x10]
                   , o0qOoQ = 0x123
                   , o0qOq0 = 0x803
-                  , o0qOqo = 0x792
-                  , o0qOqq = function() {
+                  , o0qOqo = 0x792;
+                  
+                var o0qOqq = function() {
                     var oq000Q = o0OQOQ
                       , o0qQQo = {};
                     return o0qQQo['FILED_VERSION_SLOT'] = 0x0,
@@ -16978,8 +16979,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         o0qQQq;
                     }(),
                     o0qQQo;
-                }()
-                  , o0qOqO = function() {
+                }();
+
+                console.log('head_data', o0qOqq);
+
+                var o0qOqO = function() {
                     var oq00qo = o0OQOQ
                       , o0qQQo = {};
                     return o0qQQo['FILED_VIDEO_VENDER_SLOT'] = 0x0,
@@ -17616,7 +17620,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     ,
                     o0qOOQ(o0qQQo);
                 }
-                var o0qOQ0, o0qOQo = 0x96000, o0qOQq = !0x1, o0qOQO = !0x1, o0qOQQ = !0x1, o0qQ00 = !0x1, o0qQ0o = !0x1, o0qQ0q = '', o0qQ0O = o0qq0Q['Z'][o0OQOQ(3936, 'OoQq')], o0qQ0Q = function() {
+                var o0qOQ0, o0qOQo = 0x96000, o0qOQq = !0x1, o0qOQO = !0x1, o0qOQQ = !0x1, o0qQ00 = !0x1, o0qQ0o = !0x1, o0qQ0q = '', o0qQ0O = o0qq0Q['Z']['Module'], o0qQ0Q = function() {
                     var oq0qOo = o0OQOQ;
                     return o000q0['QQoOOO'](o0qOOq, 0x64);
                 }, o0qQo0 = function(o0qQQo) {
@@ -17645,7 +17649,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                   
                   
                   
-                }, o0qQoq = function(o0qQQo, o0qQQq, o0qQQO, o0qQQQ, o0O000) {
+                }, 
+                
+                o0qQoq = function(o0qQQo, o0qQQq, o0qQQO, o0qQQQ, o0O000) {
                     var oq0qOQ = o0OQOQ
                       , o0O00o = function() {
                         var oq0qOO = O0QQQQo
@@ -17713,7 +17719,10 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         throw 0x78;
                     }
                     return o0O00Q;
-                }, o0qQoO = function(o0qQQo, o0qQQq, o0qQQO, o0qQQQ, o0O000) {
+                }
+                , 
+                
+                o0qQoO = function(o0qQQo, o0qQQq, o0qQQO, o0qQQQ, o0O000) {
                     var oq0qQo = o0OQOQ;
                     if (o0qOQO)
                         throw 0x65;
@@ -17763,7 +17772,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                     }
                     return o0qqQ0['QQQQO'](o0O00o) > o0qOQo && (o0O00o = o0O00o['substring'](0, o0qOQo)),
                     o0qQoq(o0O00o, 0x0, o0qQQO, 0x0, !0x0);
-                }, o0qQoQ = function(o0qQQo, o0qQQq, o0qQQO, o0qQQQ) {
+                },
+                
+                o0qQoQ = function(o0qQQo, o0qQQq, o0qQQO, o0qQQQ) {
                     var oq0qQO = o0OQOQ;
                     return o000q0['OQooQo'](o0qQoO, o0qQQo, 0x0, o0qQQO, !0x0);
                 }, o0qQq0 = function(o0qQQo, o0qQQq, o0qQQO, o0qQQQ) {
@@ -17787,7 +17798,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                 }, o0qQqO = function(o0qQQo, o0qQQq, o0qQQO, o0qQQQ) {
                     var oq0O0o = o0OQOQ;
                     o0qQQQ ? dickKeyData['oQqooo'](o0qQQo, o0qQoo(o0qQQO)) : o0qQQq(o0qQQO);
-                }, o0qQqQ = function(o0qQQo, o0qQQq, o0qQQO, o0qQQQ, o0O000) {
+                }, 
+                
+                o0qQqQ = function(o0qQQo, o0qQQq, o0qQQO, o0qQQQ, o0O000) {
                     var o0O00o = function() {
                         var oq0O0q = O0QQQQo
                           , o0O00q = {};
@@ -17850,100 +17863,121 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         }
                         );
                     }(o0qQQo, o0qQQq, o0qQQO, o0qQQQ, o0O000, null, !0x0);
-                }, o0qQO0 = new (function() {
-                    var oq0OOq = o0OQOQ
-                      , o0qQQo = function() {
-                        var oq0Ooq = O0QQQQo
-                          , o0O00o = {};
-                        return o0O00o['qQqOQO'] = function(o0O00q) {
-                            return o0O00q();
-                        }
-                        ,
-                        o0O00o['QqqoOo'] = function(o0O00q, o0O00O, o0O00Q, o0O0o0, o0O0oo, o0O0oq) {
-                            return o0O00q(o0O00O, o0O00Q, o0O0o0, o0O0oo, o0O0oq);
-                        }
-                        ,
-                        o0O00o;
-                    }();
-                    function o0qQQq() {
-                        var oq0Oq0 = O0QQQQo
-                          , o0O00o = function() {
-                            var oq0OoO = O0QQQQo
-                              , o0O00q = {};
-                            return o0O00q['QQOQoq'] = function(o0O00O) {
-                                return o0O00O();
+                }, o0qQO0 = new (
+    
+                    function() {
+                        var oq0OOq = o0OQOQ;
+                        
+                        
+                        o0qQQo = function() {
+                            var o0O00o = {};
+                            
+                            o0O00o['qQqOQO'] = function(arg1) {
+                                return arg1();
                             }
-                            ,
-                            o0O00q;
+                            
+                    
+                            o0O00o['QqqoOo'] = function(arg1, arg2, arg3, arg4, o0O0oo, o0O0oq) {
+                                return arg1(arg2, arg3, arg4, o0O0oo, o0O0oq);
+                            }
+                            
+                    
+                            return o0O00o;
                         }();
-                        if (function(o0O00q, o0O00O) {
-                            var oq0OoQ = O0QQQQo;
-                            if (!(o0O00q instanceof o0O00O))
-                                throw new TypeError('Cannot call a class as a function');
-                        }(this, o0qQQq),
-                        !o0qOQQ) {
-                            o0qOQQ = !0x0;
-                            try {
-                                o0qQ0O['onRuntimeInitialized'] = function() {
-                                    var oq0Oqo = oq0Oq0;
-                                    o0O00o['QQOQoq'](o0qQo0);
+                    
+                    
+                    
+                        function o0qQQq() {
+                            var oq0Oq0 = O0QQQQo
+                              , o0O00o = function() {
+                                var arg1 = {};
+                                return arg1['QQOQoq'] = function(arg2) {
+                                    return arg2();
                                 }
                                 ,
-                                o0qq0Q['Z']['isRuntimeInitialized']() && o0qQQo['qQqOQO'](o0qQo0);
-                            } catch (o0O00q) {
-                                o0qOQO = !0x0;
+                                arg1;
+                            }();
+                            if (function(arg1, arg2) {
+                                
+                                if (!(arg1 instanceof arg2))
+                                    throw new TypeError('Cannot call a class as a function');
+                            }(this, o0qQQq),
+                            !o0qOQQ) {
+                                o0qOQQ = !0x0;
+                                try {
+                                    o0qQ0O['onRuntimeInitialized'] = function() {
+                                        var oq0Oqo = oq0Oq0;
+                                        o0O00o['QQOQoq'](o0qQo0);
+                                    }
+                                    ,
+                                    o0qq0Q['Z']['isRuntimeInitialized']() && o0qQQo['qQqOQO'](o0qQo0);
+                                } catch (arg1) {
+                                    o0qOQO = !0x0;
+                                }
                             }
                         }
-                    }
-                    var o0qQQO, o0qQQQ, o0O000;
-                    return o0qQQO = o0qQQq,
-                    (o0qQQQ = [function() {
-                        var oq0Oqq = O0QQQQo
-                          , o0O00o = {};
-                        return o0O00o['key'] = dickKeyData['oqqqQQ'],
-                        o0O00o['value'] = function(o0O00q, o0O00O, o0O00Q, o0O0o0) {
-                            var oq0OqO = oq0Oqq;
-                            return o0qQQo['QqqoOo'](o0qQqQ, o0qQoQ, o0O00q, o0O00O, o0O00Q, o0O0o0);
-                        }
-                        ,
-                        o0O00o;
-                    }(), function() {
-                        var oq0OqQ = O0QQQQo
-                          , o0O00o = {};
-                        return o0O00o['key'] = 'genSignForPostAsync',
-                        o0O00o['value'] = function(o0O00q, o0O00O, o0O00Q, o0O0o0) {
-                            return o0qQqQ(o0qQq0, o0O00q, o0O00O, o0O00Q, o0O0o0);
-                        }
-                        ,
-                        o0O00o;
-                    }(), function() {
-                        var oq0OO0 = O0QQQQo
-                          , o0O00o = {};
-                        return o0O00o['key'] = dickKeyData['Ooooqq'],
-                        o0O00o['value'] = function(o0O00q, o0O00O, o0O00Q, o0O0o0) {
-                            return o0qQqQ(o0qQqo, o0O00q, o0O00O, o0O00Q, o0O0o0);
-                        }
-                        ,
-                        o0O00o;
-                    }(), function() {
-                        var oq0OOo = O0QQQQo
-                          , o0O00o = {};
-                        return o0O00o['key'] = 'genSignForPostBinAsync',
-                        o0O00o['value'] = function(o0O00q, o0O00O, o0O00Q, o0O0o0) {
-                            return o0qQqQ(o0qQqq, o0O00q, o0O00O, o0O00Q, o0O0o0);
-                        }
-                        ,
-                        o0O00o;
-                    }()]) && dickKeyData['ooqoqo'](o0qOOO, o0qQQO['prototype'], o0qQQQ),
-                    o0O000 && o0qOOO(o0qQQO, o0O000),
-                    Object['defineProperty'](o0qQQO, dickKeyData['oOoOQO'], function() {
-                        var oq0OOO = oq0OOq
-                          , o0O00o = {};
-                        return o0O00o['writable'] = !0x1,
-                        o0O00o;
-                    }()),
-                    o0qQQq;
-                }())(), o0qQOo = function() {
+                    
+                    
+                    
+                    
+                        var o0qQQO, o0qQQQ, o0O000;
+                    
+                        return o0qQQO = o0qQQq,
+                        (
+                            o0qQQQ = [
+                                function() {
+                                    var o0O00o = {};
+                                    o0O00o['key'] = 'genSignForGetAsync';
+                                    
+                                    o0O00o['value'] = function(arg1, arg2, arg3, arg4) {
+                                        
+                                        return o0qQQo['QqqoOo'](o0qQqQ, o0qQoQ, arg1, arg2, arg3, arg4);
+                                    }
+                    
+                                    return o0O00o;
+                    
+                                }(), function() {
+                                    var o0O00o = {};
+                                    return o0O00o['key'] = 'genSignForPostAsync',
+                                    o0O00o['value'] = function(arg1, arg2, arg3, arg4) {
+                                        return o0qQqQ(o0qQq0, arg1, arg2, arg3, arg4);
+                                    }
+                                    ,
+                                    o0O00o;
+                                }(), function() {
+                                    var o0O00o = {};
+                                    return o0O00o['key'] = dickKeyData['Ooooqq'],
+                                    o0O00o['value'] = function(arg1, arg2, arg3, arg4) {
+                                        return o0qQqQ(o0qQqo, arg1, arg2, arg3, arg4);
+                                    }
+                                    ,
+                                    o0O00o;
+                                }(), function() {
+                                    var o0O00o = {};
+                                    return o0O00o['key'] = 'genSignForPostBinAsync',
+                                    o0O00o['value'] = function(arg1, arg2, arg3, arg4) {
+                                        return o0qQqQ(o0qQqq, arg1, arg2, arg3, arg4);
+                                    }
+                                    ,
+                                    o0O00o;
+                                }()
+                    
+                            ]) && dickKeyData['ooqoqo'](o0qOOO, o0qQQO['prototype'], o0qQQQ),
+                            
+                            o0O000 && o0qOOO(o0qQQO, o0O000),
+                        
+                            Object['defineProperty'](o0qQQO, dickKeyData['oOoOQO'], function() {
+                                var o0O00o = {};
+                                return o0O00o['writable'] = !0x1,
+                                o0O00o;
+                            }()
+                        
+                        ),
+                        o0qQQq;
+                    }()
+                    
+                    
+                    ), o0qQOo = function() {
                     var oq0OOQ = o0OQOQ
                       , o0qQQo = {};
                     return o0qQQo['g'] = o0qQO0['genSignForGetAsync'],
