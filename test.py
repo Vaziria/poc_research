@@ -170,7 +170,7 @@ async def main():
     
     for c in range(0, 1000):
         idnya = str(uuid4())
-        command = f'return await window.get_prod("/api/v4/search/search_items?by=relevancy&keyword=gamis&limit=60&newest=0&order=desc&page_type=search&scenario=PAGE_GLOBAL_SEARCH&version=2&view_session_id={idnya}");'
+        command = f'return await window.get_prod("/api/v4/search/search_items?by=pop&categoryids=101940&limit=60&match_id=11044364&newest=0&order=desc&page_type=search&scenario=PAGE_CATEGORY&version=2&view_session_id={idnya}");'
         
         coro = get_pp(c)
         

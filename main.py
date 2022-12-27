@@ -47,8 +47,10 @@ class RequestLogger:
         )
             
             
-    def request(self, flow: HTTPFlow):
-        headers = dict(flow.request.headers)
+    async def request(self, flow: HTTPFlow):
+        print(flow.request.url)
+        
+        # await asyncio.sleep(3)
         # pprint(headers)
         
         
@@ -168,10 +170,10 @@ async def start_proxy(host, port):
         with_termlog=False,
         with_dumper=False,
     )
-    # master.addons.add(RequestLogger())
+    master.addons.add(RequestLogger())
     master.addons.add(BlockerUrl())
-    master.addons.add(CsvWriter())
-    master.addons.add(CookiesInspect())
+    # master.addons.add(CsvWriter())
+    # master.addons.add(CookiesInspect())
     master.addons.add(ResourceTampering())
     
     await master.run()
@@ -186,7 +188,7 @@ async def start_fix_proxy(host, port):
         with_termlog=False,
         with_dumper=False,
     )
-    # master.addons.add(RequestLogger())
+    master.addons.add(RequestLogger())
     master.addons.add(BlockerUrl())
     # master.addons.add(CsvWriter())
     # master.addons.add(CookiesInspect())
