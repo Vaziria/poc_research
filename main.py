@@ -1,5 +1,9 @@
 import asyncio
 import csv
+import traceback
+
+import httpx
+
 from mitmproxy import options
 from mitmproxy.tools import dump
 from mitmproxy.http import HTTPFlow
@@ -46,17 +50,55 @@ class RequestLogger:
             help="Add a count header to responses",
         )
             
-            
-    async def request(self, flow: HTTPFlow):
-        print(flow.request.url)
+
+
+
         
-        # await asyncio.sleep(3)
-        # pprint(headers)
+    async def request(self, flow: HTTPFlow):
+        try:
+            
+            headers = dict(flow.request.headers)
+            
+            if flow.request.url.find('v4/item/get?') != -1:
+                
+                cookie = headers.get('cookie').replace(',', ';')
+                headers['cookie'] = cookie
+                
+                proxies = {
+                    "http://": "http://localhost:8881",
+                    "https://": "http://localhost:8881",
+                }
+                
+                async def test():
+                    client = httpx.AsyncClient(http2=True, verify=False, proxies=proxies)
+                    
+                    last_hash = 0
+                    
+                    for c in range(0, 1000):
+                        res = await client.get(flow.request.url, headers=headers)
+                        
+                        data_hash = hash(res.text)
+                        
+                        # print(data_hash, c)
+                        if last_hash != data_hash:
+                            last_hash = data_hash
+                            prices = list(map(lambda x: x['price'], res.json()['data']['models']))
+                            prices.sort()
+                            print(data_hash, prices)
+                            
+                    print('selesai')
+                
+                # asyncio.create_task(test())
+                
+                
+        except Exception as e:
+            print(e)
+            traceback.print_exc()
         
         
     def response(context, flow: HTTPFlow):
         headers = dict(flow.response.headers)
-        # pprint(headers)
+        
         
 
 class CsvWriter:
@@ -174,7 +216,7 @@ async def start_proxy(host, port):
     master.addons.add(BlockerUrl())
     # master.addons.add(CsvWriter())
     # master.addons.add(CookiesInspect())
-    master.addons.add(ResourceTampering())
+    # master.addons.add(ResourceTampering())
     
     await master.run()
     return master
@@ -192,7 +234,7 @@ async def start_fix_proxy(host, port):
     master.addons.add(BlockerUrl())
     # master.addons.add(CsvWriter())
     # master.addons.add(CookiesInspect())
-    master.addons.add(ResourceTampering())
+    # master.addons.add(ResourceTampering())
     
     await master.run()
 
